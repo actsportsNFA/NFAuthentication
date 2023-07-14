@@ -10,7 +10,7 @@ export default function Footer() {
                 <div class="row">
                     <div class="col-xl-4 col-md-6">
                         <div class="footer-widget">
-                            <div class="footer-logo"><img src="/demos/nfauthentication-react/images/nfa-logo-white.png" alt="footer-logo"/>
+                            <div class="footer-logo"><img src="./images/nfa-logo-white.png" alt="footer-logo"/>
                             </div>
                             <p class="footer-text">NFA is a powerful tool that allows athletes to authenticate their sports collectibles using blockchain technology.</p>
                             <div class="social-links">

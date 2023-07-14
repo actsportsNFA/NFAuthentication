@@ -66,7 +66,7 @@ export default function Home() {
                 <div class="item">
                   <a class="gallery-picture">
                     <img
-                      src="/demos/nfauthentication-react/images/card-1.jpg"
+                      src="./images/card-1.jpg"
                       alt=""
                     />
                   </a>
@@ -97,7 +97,7 @@ export default function Home() {
                 <div class="item">
                   <a class="gallery-picture">
                     <img
-                      src="/demos/nfauthentication-react/images/img.jpg"
+                      src="./images/img.jpg"
                       alt=""
                     />
                   </a>
@@ -128,7 +128,7 @@ export default function Home() {
                 <div class="item">
                   <a class="gallery-picture">
                     <img
-                      src="/demos/nfauthentication-react/images/img-2.png"
+                      src="./images/img-2.png"
                       alt=""
                     />
                   </a>
@@ -157,7 +157,7 @@ export default function Home() {
               </div>
               {/* <!-- <div class="col-lg-3 col-md-6">
                         <div class="item">
-                            <a href="bog-details.html" class="gallery-picture"><img src="/demos/nfauthentication-react/images/blog/blog11.jpg" alt=""></a>
+                            <a href="bog-details.html" class="gallery-picture"><img src="./images/blog/blog11.jpg" alt=""></a>
                             <div class="contents-wrapper">
                                 <div class="contents text-start">
                                     <div class="d-block">
@@ -186,11 +186,11 @@ export default function Home() {
       {/* <!--================= About Section Start Here =================--> */}
       <div class="rts-about-section section-gap" id="about">
         <div class="shape1">
-          <img src="/demos/nfauthentication-react/images/shape2.png" alt="" />
+          <img src="./images/shape2.png" alt="" />
         </div>
         <div class="shape2">
           <img
-            src="/demos/nfauthentication-react/images/nfa-logo-white.png"
+            src="./images/nfa-logo-white.png"
             style={{ opacity: "0.1" }}
             alt=""
           />
@@ -202,13 +202,13 @@ export default function Home() {
                 <div class="about-thumb">
                   <div class="img1">
                     <img
-                      src="/demos/nfauthentication-react/images/halmet.png"
+                      src="./images/halmet.png"
                       alt="about-thumb"
                     />
                   </div>
                   <div class="img2">
                     <img
-                      src="/demos/nfauthentication-react/images/shirts.png"
+                      src="./images/shirts.png"
                       alt="about-thumb"
                     />
                   </div>
@@ -270,7 +270,7 @@ export default function Home() {
                 <h3>01</h3>
                 <div class="award-picture">
                   <img
-                    src="/demos/nfauthentication-react/images/1.png"
+                    src="./images/1.png"
                     alt="award-picture"
                   />
                 </div>
@@ -287,7 +287,7 @@ export default function Home() {
                 <h3>02</h3>
                 <div class="award-picture">
                   <img
-                    src="/demos/nfauthentication-react/images/qr.png"
+                    src="./images/qr.png"
                     alt="award-picture"
                   />
                 </div>
@@ -304,7 +304,7 @@ export default function Home() {
                 <h3>03</h3>
                 <div class="award-picture">
                   <img
-                    src="/demos/nfauthentication-react/images/3.png"
+                    src="./images/3.png"
                     alt="award-picture"
                   />
                 </div>
@@ -321,7 +321,7 @@ export default function Home() {
                 <h3>04</h3>
                 <div class="award-picture">
                   <img
-                    src="/demos/nfauthentication-react/images/logo_main.png"
+                    src="./images/logo_main.png"
                     alt="award-picture"
                   />
                 </div>
@@ -384,7 +384,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand1.svg"
+                        src="./images/brand1.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -394,7 +394,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand2.svg"
+                        src="./images/brand2.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -404,7 +404,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand3.svg"
+                        src="./images/brand3.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -414,7 +414,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand4.svg"
+                        src="./images/brand4.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -424,7 +424,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand5.svg"
+                        src="./images/brand5.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -434,7 +434,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand6.svg"
+                        src="./images/brand6.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -444,7 +444,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand7.svg"
+                        src="./images/brand7.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -454,7 +454,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand8.svg"
+                        src="./images/brand8.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -464,7 +464,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand9.svg"
+                        src="./images/brand9.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -474,7 +474,7 @@ export default function Home() {
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img
-                        src="/demos/nfauthentication-react/images/brand10.svg"
+                        src="./images/brand10.svg"
                         alt="sponsor"
                       />
                     </div>
@@ -496,7 +496,7 @@ export default function Home() {
                 <div class="newsletter-box">
                   <div class="shape">
                     <img
-                      src="/demos/nfauthentication-react/images/team/shape.png"
+                      src="./images/team/shape.png"
                       alt=""
                     />
                   </div>
@@ -528,7 +528,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="hero-image">
                   <img
-                    src="/demos/nfauthentication-react/images/qr-original.jpeg"
+                    src="./images/qr-original.jpeg"
                     alt=""
                     style={{ maxHeight: "380px" }}
                   />
@@ -553,19 +553,19 @@ export default function Home() {
                 <div class="product-thumb-filter-group">
                   <div class="thumb-filter filter-btn active" data-show=".one">
                     <img
-                      src="/demos/nfauthentication-react/images/products/gloves.png"
+                      src="./images/products/gloves.png"
                       alt="product-thumb-filter"
                     />
                   </div>
                   <div class="thumb-filter filter-btn" data-show=".two">
                     <img
-                      src="/demos/nfauthentication-react/images/products/product1.png"
+                      src="./images/products/product1.png"
                       alt="product-thumb-filter"
                     />
                   </div>
                   <div class="thumb-filter filter-btn" data-show=".three">
                     <img
-                      src="/demos/nfauthentication-react/images/products/product2.png"
+                      src="./images/products/product2.png"
                       alt="product-thumb-filter"
                     />
                   </div>
@@ -580,7 +580,7 @@ export default function Home() {
                     }}
                   >
                     <img
-                      src="/demos/nfauthentication-react/images/products/prod.jpg"
+                      src="./images/products/prod.jpg"
                       alt="product-thumb"
                     />
                   </div>
@@ -594,7 +594,7 @@ export default function Home() {
                     }}
                   >
                     <img
-                      src="/demos/nfauthentication-react/images/products/prod.jpg"
+                      src="./images/products/prod.jpg"
                       alt="product-thumb"
                     />
                   </div>
@@ -608,7 +608,7 @@ export default function Home() {
                     }}
                   >
                     <img
-                      src="/demos/nfauthentication-react/images/products/prod.jpg"
+                      src="./images/products/prod.jpg"
                       alt="product-thumb"
                     />
                   </div>

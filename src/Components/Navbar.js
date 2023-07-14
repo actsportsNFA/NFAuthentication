@@ -101,7 +101,7 @@ export default function Navbar() {
            
             <img
               class="main_logo"
-              src="/demos/nfauthentication-react/images/nfa-logo-white.png"
+              src="./images/nfa-logo-white.png"
               alt="nfa-logo"
             />
          
@@ -121,14 +121,14 @@ export default function Navbar() {
                 <Link href="" class="logo">
                   <img
                     class="main_logo"
-                    src="/demos/nfauthentication-react/images/nfa-logo-white.png"
+                    src="./images/nfa-logo-white.png"
                     alt="sportius-logo"
                   />
                 </Link>
                 <Link href="" class="logo-sticky">
                   <img
                     class="main_logo"
-                    src="/demos/nfauthentication-react/images/nfa-logo-white.png"
+                    src="./images/nfa-logo-white.png"
                     alt="nfa-logo"
                   />
                 </Link>
