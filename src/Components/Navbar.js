@@ -103,7 +103,7 @@ export default function Navbar() {
               class="main_logo"
               src="./images/nfa-logo-2-white.png"
               alt="nfa-logo"
-              style={{height:'500px'}}
+              style={{height:'300px'}}
             />
          
           </div>
@@ -129,7 +129,7 @@ export default function Navbar() {
                 <Link href="" class="logo-sticky">
                   <img
                     class="main_logo"
-                    src="./images/nfa-logo-white.png"
+                    src="./images/nfa-logo-2-white.png"
                     alt="nfa-logo"
                   />
                 </Link>

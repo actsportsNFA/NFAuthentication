@@ -190,7 +190,7 @@ export default function Home() {
         </div>
         <div class="shape2">
           <img
-            src="./images/nfa-logo-white.png"
+            src="./images/nfa-logo-2-white.png"
             style={{ opacity: "0.1" }}
             alt=""
           />
