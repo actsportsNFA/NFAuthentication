@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Pages/Home';
 
 import { useEffect } from 'react';
+// import Test from './Pages/Test';
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
    <>
    <Routes>
     <Route element={<Home/>} path="/"/>
+    {/* <Route element={<Test/>} path="/test"/> */}
     {/* <Route element={<Test/>} path="/test"/> */}
     
    </Routes>

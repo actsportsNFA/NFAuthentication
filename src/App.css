@@ -5512,7 +5512,7 @@ tr:first-child {
   background-image: linear-gradient(0deg, rgb(17, 17, 17) 0%, rgba(17, 17, 17, 0.30196) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgb(17, 17, 17)), to(rgba(17, 17, 17, 0.30196))); */
   /* background-image: linear-gradient(90deg, rgb(17, 17, 17) 0%, rgba(17, 17, 17, 0.30196) 100%); */
-  background-color: #000 !important;
+  background-image: linear-gradient(188deg, #075686, #000);
   padding: 0 30px;
 }
 @media (max-width: 400px) {
@@ -7686,7 +7686,7 @@ tr:first-child {
 .banner-content .pretitle {
   font-size: 16px;
   color: #fff;
-  background: linear-gradient(90deg ,#6575e1 48.44%,#2e88ed61);
+  background: linear-gradient(90deg ,#075686 48.44%,#2e88ed61);
   font-weight: 200;
   padding: 5px 10px;
   letter-spacing: 2px;
@@ -7874,7 +7874,7 @@ tr:first-child {
 .banner-bg::before {
   content: "";
   mix-blend-mode: multiply;
-  background-color: rgb(95 120 233);
+  background-color: rgb(7 86 134 / 80%);
   position: absolute;
   top: 0;
   left: 0;
@@ -7899,11 +7899,11 @@ tr:first-child {
 }
 
 .banner-single-1_2 {
-  background-image: url("../public/images/banner-1_2.jpg");
+  background-image: url("../public/images/img-re-2.jpg");
 }
 
 .banner-single-3 {
-  background-image: url("../public/images/banner-3re.png");
+  background-image: url("../public/images/img-re-1.jpg");
 }
 
 .banner-single-2 {
@@ -10691,9 +10691,11 @@ tr:first-child {
 }
 .rts-awards-section .award-box:hover h3 {
   z-index: 0;
-  opacity: 01;
-  color: rgb(101 117 225 / 75%);
-  -webkit-text-stroke: 1px #6575e1;
+    opacity: 01;
+    color: rgb(59 156 214 / 75%);
+    -webkit-text-stroke: 1px #3b9cd6 ;
+
+
 }
 .award-picture img{
   height: 200px;
@@ -12915,7 +12917,7 @@ tr:first-child {
   z-index: -1;
   content: "";
   mix-blend-mode: multiply;
-  background-color: rgb(101 117 225);
+  background-color: rgb(7 86 134);
   opacity: 0.902;
   top: 0;
   left: 0;
@@ -13119,10 +13121,11 @@ tr:first-child {
 }
 
 .rts-newsletter-section {
-  background: url(../public/images/newsletter-bg.jpg);
+  background-image: linear-gradient(524deg, #075686, #000), url(../public/images/newsletter-bg.jpg) !important;
+
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   overflow: hidden;
   padding: 100px 0;
@@ -14471,7 +14474,7 @@ tr:first-child {
  * Footer Start Here
  */
 .footer {
-  background: #000;
+  background-image: linear-gradient(97deg,#075686, #000)
 }
 .footer.inner {
   background: #151515;
@@ -14662,7 +14665,7 @@ tr:first-child {
 }
 .footer .footer-bottom-area {
   padding: 25px 0;
-  background: #1d1d1d;
+  background: #030e15;
 }
 .footer .footer-bottom-area .bottom-area-inner {
   display: -webkit-box;
@@ -17929,7 +17932,7 @@ tr:first-child {
 }
 
 .rts-about-section {
-  background-color: rgb(17, 17, 17);
+  background-image: linear-gradient(524deg, #075686, #000);
   position: relative;
   z-index: 1;
   overflow: hidden;

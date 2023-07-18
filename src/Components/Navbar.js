@@ -101,7 +101,7 @@ export default function Navbar() {
            
             <img
               class="main_logo"
-              src="./images/nfa-logo-2-white.png"
+              src="./images/logo-re.png"
               alt="nfa-logo"
               style={{height:'300px'}}
             />
@@ -122,14 +122,14 @@ export default function Navbar() {
                 <Link href="" class="logo">
                   <img
                     class="main_logo"
-                    src="./images/nfa-logo-2.jpg"
+                    src="./images/logo-re.png"
                     alt="sportius-logo"
                   />
                 </Link>
                 <Link href="" class="logo-sticky">
                   <img
                     class="main_logo"
-                    src="./images/nfa-logo-2-white.png"
+                    src="./images/Logo-re.png"
                     alt="nfa-logo"
                   />
                 </Link>
