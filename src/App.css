@@ -14584,7 +14584,7 @@ tr:first-child {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-height: 244px;
+  max-height: 170px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -14673,7 +14673,7 @@ tr:first-child {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

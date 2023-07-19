@@ -23,13 +23,14 @@ export default function Footer() {
                     <div class="col-xl-4 col-md-6 col-sm-6">
                         <div class="footer-widget">
                             <h3 class="footer-widget-title"><span class="decorator"></span> ESSENTIAL LINKS</h3>
-                            <ul class="widget-items cata-widget" style={{marginLeft:'40px'}}>
+                            <ul class="widget-items cata-widget" >
                                 <li class="widget-list-item"><a href="#home">Home</a></li>
                                 <li class="widget-list-item"><a href="#cards">Benefits</a></li>
                                 <li class="widget-list-item"><a href="#about">About</a></li>
                                 <li class="widget-list-item"><a href="#process">Process</a></li>
                                 <li class="widget-list-item"><a href="#sponsor">Sponsors</a></li>
                                 <li class="widget-list-item"><a href="#contact">Contact</a></li>
+                                <li class="widget-list-item"><a href="#faq">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -50,13 +51,9 @@ export default function Footer() {
         </div>
         <div class="footer-bottom-area">
             <div class="container">
-                <div class="bottom-area-inner">
+                <div class="bottom-area-inner ">
                     <span class="copyright">© Copyright 2023. All Rights Reserved By NFA </span>
-                    <div class="footer-bottom-links">
-             
-                        <a href="#faq">FAQ</a>
-      
-                    </div>
+                    
                 </div>
             </div>
         </div>
