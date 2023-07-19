@@ -7895,7 +7895,7 @@ tr:first-child {
 }
 
 .banner-single-1 {
-  background-image: url("../public/images/banner-2re.jpg");
+  background-image: url("../public/images/card1.png");
 }
 
 .banner-single-1_2 {
@@ -7903,7 +7903,7 @@ tr:first-child {
 }
 
 .banner-single-3 {
-  background-image: url("../public/images/img-re-1.jpg");
+  background-image: url("../public/images/shirt2.png");
 }
 
 .banner-single-2 {
@@ -14584,7 +14584,7 @@ tr:first-child {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-height: 230px;
+  max-height: 244px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }

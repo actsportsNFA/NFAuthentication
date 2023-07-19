@@ -129,7 +129,7 @@ export default function Navbar() {
                 <Link href="" class="logo-sticky">
                   <img
                     class="main_logo"
-                    src="./images/Logo-re.png"
+                    src="./images/logo-re.png"
                     alt="nfa-logo"
                   />
                 </Link>

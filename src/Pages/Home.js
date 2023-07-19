@@ -190,7 +190,7 @@ export default function Home() {
         </div>
         <div class="shape2">
           <img
-            src="./images/Logo-re.png"
+            src="./images/logo-re.png"
             style={{ opacity: "0.1" ,width:'320px'}}
             alt=""
           />
@@ -270,7 +270,7 @@ export default function Home() {
                 <h3>01</h3>
                 <div class="award-picture">
                   <img
-                    src="./images/1.png"
+                    src="./images/shirt2.png"
                     alt="award-picture"
                   />
                 </div>
@@ -304,7 +304,7 @@ export default function Home() {
                 <h3>03</h3>
                 <div class="award-picture">
                   <img
-                    src="./images/3.png"
+                    src="./images/card2.png"
                     alt="award-picture"
                   />
                 </div>
@@ -529,7 +529,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="hero-image">
                   <img
-                    src="./images/QR.png"
+                    src="./images/qr.png"
                     alt=""
                     style={{ maxHeight: "380px" }}
                   />
