@@ -287,7 +287,7 @@ export default function Home() {
                 <h3>02</h3>
                 <div class="award-picture">
                   <img
-                    src="./images/qr.png"
+                    src="./images/qr2.png"
                     alt="award-picture"
                   />
                 </div>
@@ -529,7 +529,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="hero-image">
                   <img
-                    src="./images/qr.png"
+                    src="./images/qr2.png"
                     alt=""
                     style={{ maxHeight: "380px" }}
                   />
