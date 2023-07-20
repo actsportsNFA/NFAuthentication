@@ -39,16 +39,16 @@ export default function PrivacyPolicy() {
               </p>
               <h5 className="privacy-heading">1. Information We Collect:</h5>
 
-              <h6 className="privacy-heading">a. Personal Information:</h6>
-              <p className="privacy-para">
+              <h6 className="privacy-sub-heading">a. Personal Information:</h6>
+              <p className="privacy-sub-heading-para">
                 We may collect personal information that you provide to us
                 voluntarily, such as your name, email address, contact number,
                 and any other information you choose to provide when you use our
                 services or interact with our website.
               </p>
 
-              <h6 className="privacy-heading">b. Non-Personal Information:</h6>
-              <p className="privacy-para">
+              <h6 className="privacy-sub-heading">b. Non-Personal Information:</h6>
+              <p className="privacy-sub-heading-para">
                 We may also collect non-personal information, such as your IP
                 address, browser type, operating system, referring URLs, and
                 other technical data, which does not identify you personally but
