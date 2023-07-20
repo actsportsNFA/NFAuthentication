@@ -15,9 +15,9 @@ root.render(
 <Navbar/>
 
   <App />
+  <Footer/>
 </BrowserRouter>
   
-  <Footer/>
   <ScrollToTop/>
   </>
  

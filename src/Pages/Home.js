@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Hero from "../Components/Hero";
 
 export default function Home() {
   const Swiper = window.Swiper;
@@ -45,6 +46,7 @@ export default function Home() {
 
   return (
     <>
+    <Hero/>
       {/* <!--================= Gallery Start Here =================--> */}
       <section
         class="rts-single-news-section section-gap rts-gallery-section"
@@ -65,10 +67,7 @@ export default function Home() {
               <div class="col-lg-4 col-md-6">
                 <div class="item">
                   <a class="gallery-picture">
-                    <img
-                      src="./images/card-1.jpg"
-                      alt=""
-                    />
+                    <img src="./images/card-1.jpg" alt="" />
                   </a>
                   <div class="contents-wrapper">
                     <div class="contents text-center">
@@ -96,10 +95,7 @@ export default function Home() {
               <div class="col-lg-4 col-md-6">
                 <div class="item">
                   <a class="gallery-picture">
-                    <img
-                      src="./images/img.jpg"
-                      alt=""
-                    />
+                    <img src="./images/img.jpg" alt="" />
                   </a>
                   <div class="contents-wrapper">
                     <div class="contents text-center">
@@ -127,10 +123,7 @@ export default function Home() {
               <div class="col-lg-4 col-md-6">
                 <div class="item">
                   <a class="gallery-picture">
-                    <img
-                      src="./images/img-2.png"
-                      alt=""
-                    />
+                    <img src="./images/img-2.png" alt="" />
                   </a>
                   <div class="contents-wrapper">
                     <div class="contents text-center">
@@ -191,7 +184,7 @@ export default function Home() {
         <div class="shape2">
           <img
             src="./images/logo-re.png"
-            style={{ opacity: "0.1" ,width:'320px'}}
+            style={{ opacity: "0.1", width: "320px" }}
             alt=""
           />
         </div>
@@ -201,16 +194,10 @@ export default function Home() {
               <div class="col-lg-5 col-12">
                 <div class="about-thumb">
                   <div class="img1">
-                    <img
-                      src="./images/halmet.png"
-                      alt="about-thumb"
-                    />
+                    <img src="./images/halmet.png" alt="about-thumb" />
                   </div>
                   <div class="img2">
-                    <img
-                      src="./images/shirts.png"
-                      alt="about-thumb"
-                    />
+                    <img src="./images/shirts.png" alt="about-thumb" />
                   </div>
                 </div>
               </div>
@@ -269,10 +256,7 @@ export default function Home() {
               <div class="award-box">
                 <h3>01</h3>
                 <div class="award-picture">
-                  <img
-                    src="./images/shirt2.png"
-                    alt="award-picture"
-                  />
+                  <img src="./images/shirt2.png" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
@@ -286,10 +270,7 @@ export default function Home() {
               <div class="award-box">
                 <h3>02</h3>
                 <div class="award-picture">
-                  <img
-                    src="./images/qr2.png"
-                    alt="award-picture"
-                  />
+                  <img src="./images/qr2.png" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
@@ -303,10 +284,7 @@ export default function Home() {
               <div class="award-box">
                 <h3>03</h3>
                 <div class="award-picture">
-                  <img
-                    src="./images/card2.png"
-                    alt="award-picture"
-                  />
+                  <img src="./images/card2.png" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
@@ -323,13 +301,13 @@ export default function Home() {
                   <img
                     src="./images/shoes.webp"
                     alt="award-picture"
-                    style={{height:'155px',borderRadius:'50px'}}
+                    style={{ height: "155px", borderRadius: "50px" }}
                   />
                 </div>
                 <div class="content">
                   <span class="award-title">
-                    Enjoy products, exclusive merchandise, and benefits <br />{" "}
-                    from athletes' brand <br /> endorsement.
+                    Enjoy products, exclusive merchandise, and benefits 
+                    from athletes' brand endorsement.
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
                 </div>
@@ -375,7 +353,8 @@ export default function Home() {
               Recognizable Athletes brand partnerships
             </h1>
             <p>
-            Our NFA digital authentication grants you exclusive access to the brand partners of the athletes.
+              Our NFA digital authentication grants you exclusive access to the
+              brand partners of the athletes.
             </p>
           </div>
           <div class="sponsors-section-inner">
@@ -384,100 +363,70 @@ export default function Home() {
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand1.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand1.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand2.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand2.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand3.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand3.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand4.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand4.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand5.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand5.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand6.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand6.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand7.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand7.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand8.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand8.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand9.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand9.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
-                      <img
-                        src="./images/brand10.svg"
-                        alt="sponsor"
-                      />
+                      <img src="./images/brand10.svg" alt="sponsor" />
                     </div>
                   </a>
                 </div>
@@ -496,10 +445,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="newsletter-box">
                   <div class="shape">
-                    <img
-                      src="./images/team/shape.png"
-                      alt=""
-                    />
+                    <img src="./images/team/shape.png" alt="" />
                   </div>
                   <div class="section-title-area section-title-area1 text-start mb--50">
                     <h1 class="section-title">SUBSCRIBE NEWSLETTER</h1>
@@ -580,10 +526,7 @@ export default function Home() {
                       backgroundImage: "url(./images/products/prod.jpg)",
                     }}
                   >
-                    <img
-                      src="./images/products/prod.jpg"
-                      alt="product-thumb"
-                    />
+                    <img src="./images/products/prod.jpg" alt="product-thumb" />
                   </div>
                 </div>
                 <div class="thumb-wrapper two filterd-items hide">
@@ -594,10 +537,7 @@ export default function Home() {
                       backgroundImage: "url(./images/products/prod.jpg)",
                     }}
                   >
-                    <img
-                      src="./images/products/prod.jpg"
-                      alt="product-thumb"
-                    />
+                    <img src="./images/products/prod.jpg" alt="product-thumb" />
                   </div>
                 </div>
                 <div class="thumb-wrapper three filterd-items hide">
@@ -608,10 +548,7 @@ export default function Home() {
                       backgroundImage: "url(./images/products/prod.jpg)",
                     }}
                   >
-                    <img
-                      src="./images/products/prod.jpg"
-                      alt="product-thumb"
-                    />
+                    <img src="./images/products/prod.jpg" alt="product-thumb" />
                   </div>
                 </div>
               </div>
@@ -703,7 +640,7 @@ export default function Home() {
           <div class="row align-items-center pb-90 pb-md-30 pb-xs-30">
             <div class="col-lg-12 col-md-12">
               <div class="faq-content-wrapper2 faq-wrap3 pr-30 pr-lg-0 pr-md-0 pr-xs-0">
-                <div class="section-title-area section-title-area1 text-center mb--50">
+                <div class="section-title-area section-title-area1 text-center mb--50" style={{position:'relative'}}>
                   <span class="pretitle">FAQS</span>
                   <h1 class="section-title">GENERAL FAQS</h1>
                   <p>
@@ -735,15 +672,15 @@ export default function Home() {
                         <div class="accordion-body">
                           <p class="fs-14">
                             NFA (Non-Fungible Authentication) are unique digital
-                            ., to verify the authenticity and ownership of
-                            physical goods. By creating a digital representation
-                            of a physical item on a blockchain, the NFA process
-                            provides a way to validate the origin, history, and
-                            ownership of tangible objects. It enables
-                            collectors, buyers, and sellers to have a secure and
-                            transparent method of verifying the authenticity and
-                            provenance of physical items using blockchain
-                            technology.
+                            authentication cards to verify the authenticity and
+                            ownership of physical goods. By creating a digital
+                            representation of a physical item on a blockchain,
+                            the NFA process provides a way to validate the
+                            origin, history, and ownership of tangible objects.
+                            It enables collectors, buyers, and sellers to have a
+                            secure and transparent method of verifying the
+                            authenticity and provenance of physical items using
+                            blockchain technology.
                           </p>
                         </div>
                       </div>
@@ -779,9 +716,9 @@ export default function Home() {
                               1. Authenticity Verification: NFA digital
                               authentication provides a secure and immutable way
                               to verify the authenticity of collectible items.
-                              By attaching a unique NFA to a physical item,
+                              By attaching a unique NFA to a physical object,
                               collectors can have confidence in its provenance,
-                              ensuring that it is genuine and not counterfeit
+                              ensuring that it is genuine and not counterfeit.
                             </li>
                             <li>
                               2. Ownership Confirmation: NFA digital
@@ -790,13 +727,13 @@ export default function Home() {
                               nature of NFTs provides a transparent and
                               tamper-proof record of ownership, eliminating the
                               need for cumbersome paperwork or relying on trust
-                              in transactions
+                              in transactions.
                             </li>
                             <li>
                               3. Rarity and Scarcity: NFAs can be used to
                               establish the rarity and scarcity of collectible
                               items. By assigning a limited number of NFAs to
-                              specific items, collectors can have a verifiable
+                              specific items, collectors can have verifiable
                               proof of their item's exclusivity, adding value to
                               their collection.
                             </li>
@@ -804,11 +741,10 @@ export default function Home() {
                               4. Trading and Marketplace Efficiency: NFA digital
                               authentication enables collectors to easily buy,
                               sell, and trade their items in digital
-                              marketplaces. The use of NFAs simplifies the
-                              process, as ownership transfer can be executed
-                              securely and instantly through smart contracts,
-                              providing a seamless and efficient experience for
-                              collectors.
+                              marketplaces. Using NFAs simplifies the process,
+                              as ownership transfer can be executed securely and
+                              instantly through smart contracts, providing
+                              collectors a seamless and efficient experience.
                             </li>
                             <li>
                               5. Enhanced Collecting Experience: NFA digital
@@ -825,7 +761,7 @@ export default function Home() {
                               collectors' exclusive experience by ensuring
                               authenticity, establishing ownership, validating
                               rarity, facilitating trading, and introducing new
-                              digital possibilities to the world of collecting.
+                              digital possibilities to the collecting world.
                             </p>
                           </ul>
                         </div>
@@ -864,19 +800,19 @@ export default function Home() {
                             <li>
                               2. Establish Ownership: NFA digital authentication
                               provides a secure and transparent way to prove
-                              ownership of your collectible items
+                              ownership of your collectible items.
                             </li>
                             <li>
                               3. Enhance Value: By associating NFA with your
                               physical items, you can add value to your
                               collection, as the exclusivity and provenance are
-                              verified on the blockchain
+                              verified on the blockchain.
                             </li>
                             <li>
                               4. Trade and Sell: Utilize digital marketplaces to
-                              buy, sell, or trade your authenticated items more
-                              efficiently, leveraging the benefits of NFA for
-                              seamless ownership transfer
+                              buy, sell, or trade your digital authenticated
+                              items more efficiently, leveraging the benefits of
+                              NFA for seamless ownership transfer.
                             </li>
                             <li>
                               5. Engage in Digital Interactions: Explore unique
@@ -891,6 +827,11 @@ export default function Home() {
                               appreciate and engage with NFA-authenticated
                               physical items, expanding your network and sharing
                               your passion.
+                            </li>
+                            <li>
+                              7. Exclusive Fan Experience: Receive products and
+                              benefits from athlete's brand partners only
+                              offered to NFA's community members.
                             </li>
                             <p>
                               In summary, NFA digital authentication allows you
@@ -932,13 +873,13 @@ export default function Home() {
                             <li>
                               1. Purchase the NFA Athletes Autograph Collection:
                               Visit nfauthentication.com and select the desired
-                              NFA athletes autograph collection.
+                              NFA athlete's autograph collection.
                             </li>
                             <li>
-                              2. Receive the Physical Item: After making the
-                              purchase, you will receive the physical item, such
-                              as a signed memorabilia or autographed item,
-                              through the designated shipping process.
+                              2. Receive the Physical Item: After purchasing,
+                              you will receive the physical item, such as signed
+                              memorabilia or autographed item, through the
+                              designated shipping process.
                             </li>
                             <li>
                               3. Scan the QR Code: Locate the QR code attached
@@ -946,11 +887,11 @@ export default function Home() {
                               your smartphone to scan the QR code.
                             </li>
                             <li>
-                              4. Redeem Your NFA Authentication Card: Once you
-                              scan the QR code, it will direct you to a
-                              redemption process. Follow the instructions
-                              provided to redeem your NFA authentication card
-                              associated with the item
+                              4. Redeem Your NFA Authentication Card: Scanning
+                              the QR code will direct you to a redemption
+                              process. Follow the instructions provided to
+                              redeem your NFA authentication card associated
+                              with the item.
                             </li>
                             <li>
                               5. Receive the NFA Authentication Card: After
@@ -964,7 +905,7 @@ export default function Home() {
                               By scanning the QR code and going through the
                               redemption process, you can obtain your NFA
                               digital authentication card, ensuring the
-                              authenticity and ownership of your NFA athletes
+                              authenticity and ownership of your NFA athlete's
                               autograph collection item.
                             </p>
                           </ul>

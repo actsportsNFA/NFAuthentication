@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import CustomLink from "./CustomLink";
 
 
 export default function Navbar() {
@@ -103,7 +104,7 @@ export default function Navbar() {
               class="main_logo"
               src="./images/Logo-re.png"
               alt="nfa-logo"
-              style={{height:'300px'}}
+        
             />
          
           </div>
@@ -119,14 +120,14 @@ export default function Navbar() {
           <div class="navbar-part navbar-part1">
             <div class="container">
               <div class="navbar-inner">
-                <Link href="" class="logo">
+                <Link to="/" class="logo">
                   <img
                     class="main_logo"
                     src="./images/Logo-re.png"
                     alt="sportius-logo"
                   />
                 </Link>
-                <Link href="" class="logo-sticky">
+                <Link  to="/" class="logo-sticky">
                   <img
                     class="main_logo"
                     src="./images/logo-re.png"
@@ -137,9 +138,12 @@ export default function Navbar() {
                   <nav class="menus menu-toggle">
                     <ul class="nav__menu">
                       <li class="has-dropdown">
-                        <a class="menu-item" href="#home">
+                        {/* <Link class="menu-item" to="/#home">
                           Home
-                        </a>
+                        </Link> */}
+                        <CustomLink class="menu-item" to="/" id="home">
+                          Home
+                        </CustomLink>
                         {/* <!-- <ul class="dropdown-ul">
                                             <li class=""><a class="dropdown-link active" href="index-2.html">Homepage
                                                     1</a>
@@ -152,14 +156,14 @@ export default function Navbar() {
                                         </ul> --> */}
                       </li>
                       <li>
-                        <a class="menu-item" href="#cards">
+                        <CustomLink class="menu-item" to="/" id="cards">
                           BENEFITS
-                        </a>
+                        </CustomLink>
                       </li>
                       <li class="has-dropdown">
-                        <a class="menu-item" href="#about">
+                        <CustomLink class="menu-item" to="/" id="about">
                           ABOUT
-                        </a>
+                        </CustomLink>
                         {/* <!-- <ul class="dropdown-ul mega-dropdown">
                                             <li class="mega-dropdown-li">
                                                 <ul class="mega-dropdown-ul">
@@ -214,9 +218,9 @@ export default function Navbar() {
                       </li>
 
                       <li class="has-dropdown">
-                        <a class="menu-item" href="#process">
+                        <CustomLink class="menu-item" to="/" id="process">
                           Process
-                        </a>
+                        </CustomLink>
                         {/* <!-- <ul class="dropdown-ul">
                                             <li class="dropdown-li"><a class="dropdown-link" href="blog.html">News</a>
                                             </li>
@@ -226,9 +230,9 @@ export default function Navbar() {
                                         </ul> --> */}
                       </li>
                       <li class="has-dropdown">
-                        <a class="menu-item" href="#sponsor">
+                        <CustomLink class="menu-item" to="/" id="#sponsor">
                           Brands
-                        </a>
+                        </CustomLink>
                         {/* <!-- <ul class="dropdown-ul">
                                             <li class="dropdown-li"><a class="dropdown-link" href="shop.html">Shop</a>
                                             </li>
@@ -245,9 +249,9 @@ export default function Navbar() {
                                         </ul> --> */}
                       </li>
                       <li>
-                        <a class="menu-item" href="#contact">
+                        <CustomLink class="menu-item" to="/" id="#contact">
                           Contact
-                        </a>
+                        </CustomLink>
                       </li>
                     </ul>
                   </nav>
@@ -301,76 +305,7 @@ export default function Navbar() {
         </div>
 
         {/* <!--================= Banner Section Start Here =================--> */}
-        <div class="banner banner1" id="home">
-          <div class="swiper bannerSlide">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="banner-single banner-single-1 banner-bg">
-                  <div class="container">
-                    <div class="banner-content">
-                      <span class="pretitle">WELCOME TO NFA</span>
-                      <h1 class="banner-heading">
-                        The Players <br />
-                        Authentication
-                      </h1>
-                      <div class="banner-btn-area">
-                        <a href="#cards" class="nxt-match-btn banner-btn">
-                          EXPLORE MORE{" "}
-                          <i class="far fa-long-arrow-right ml--5"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="banner-single banner-single-1_2 banner-bg">
-                  <div class="container">
-                    <div class="banner-content">
-                      <span class="pretitle">WELCOME TO NFA</span>
-                      <h1 class="banner-heading">
-                        Athletes brand <br />
-                        endorsement
-                      </h1>
-                      <div class="banner-btn-area">
-                        <a href="#cards" class="nxt-match-btn banner-btn">
-                          EXPLORE MORE{" "}
-                          <i class="far fa-long-arrow-right ml--5"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="banner-single banner-single-3 banner-bg">
-                  <div class="container">
-                    <div class="banner-content">
-                      <span class="pretitle">WELCOME TO NFA</span>
-                      <h1 class="banner-heading">
-                        More than <br />
-                        an Autograph
-                      </h1>
-                      <div class="banner-btn-area">
-                        <a href="#cards" class="nxt-match-btn banner-btn">
-                          EXPLORE MORE{" "}
-                          <i class="far fa-long-arrow-right ml--5"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- <div class="slider-pagination-area">
-                    <div class="swiper-pagination">
-                        <span class="swiper-pagination-bullet one"></span>
-                        <span class="swiper-pagination-bullet two"></span>
-                        <span class="swiper-pagination-bullet three"></span>
-                    </div>
-                </div> --> */}
-          </div>
-        </div>
+    
         {/* <!--================= Banner Section End Here =================--> */}
       </header>
     </>

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import CustomLink from './CustomLink'
 
 export default function Footer() {
   return (
@@ -24,13 +26,15 @@ export default function Footer() {
                         <div class="footer-widget">
                             <h3 class="footer-widget-title"><span class="decorator"></span> ESSENTIAL LINKS</h3>
                             <ul class="widget-items cata-widget" >
-                                <li class="widget-list-item"><a href="#home">Home</a></li>
-                                <li class="widget-list-item"><a href="#cards">Benefits</a></li>
-                                <li class="widget-list-item"><a href="#about">About</a></li>
-                                <li class="widget-list-item"><a href="#process">Process</a></li>
-                                <li class="widget-list-item"><a href="#sponsor">Sponsors</a></li>
-                                <li class="widget-list-item"><a href="#contact">Contact</a></li>
-                                <li class="widget-list-item"><a href="#faq">FAQ</a></li>
+                                <li class="widget-list-item"><CustomLink to="/" id="#home">Home</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/" id="#cards">Benefits</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/" id="#about">About</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/" id="#process">Process</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/" id="#sponsor">Sponsors</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/" id="#contact">Contact</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/" id="#faq">FAQ</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/privacy-policy" id="root">Privacy & Policy</CustomLink></li>
+                                <li class="widget-list-item"><CustomLink to="/terms-condition" id="root">Terms & Conditions</CustomLink></li>
                             </ul>
                         </div>
                     </div>
@@ -41,7 +45,7 @@ export default function Footer() {
                                 <li class="widget-list-item"><i class="fas fa-envelope-open"></i><a
                                         href="mailto:contact@nfauthentication.io">contact@nfauthentication.io</a></li>
                                 
-                                <li class="widget-list-item"><i class="fas fa-map-marker-alt"></i> <span>Miami, FL</span></li>
+                                <li class="widget-list-item"><i class="fas fa-map-marker-alt"></i> <span>150 SE 2nd Ave, Miami, FL 33131, United States</span></li>
                             </ul>
                         </div>
                     </div>
