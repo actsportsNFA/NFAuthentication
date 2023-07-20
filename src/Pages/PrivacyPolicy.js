@@ -153,6 +153,7 @@ export default function PrivacyPolicy() {
                 or our data practices, please contact us at
                 contact@nfauthentication.io.
                 <br />
+                <br />
                 Thank you for choosing Non-Fungible Authentication (NFA). We are
                 dedicated to safeguarding your privacy and ensuring a secure
                 online experience

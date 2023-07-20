@@ -122,6 +122,11 @@ export default function TermsCondition() {
                 or unenforceable, the remaining provisions shall remain in full
                 force and effect.
               </p>
+              <p style={{marginBottom:'30px', fontSize:'20px'}}>
+              By using the NFA service, you acknowledge that you have read, understood, and agreed to these
+Terms and Conditions. If you do not agree to any part of these terms, please refrain from using the
+NFA service.
+              </p>
             </div>
           </div>
         </div>
