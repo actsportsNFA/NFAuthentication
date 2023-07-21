@@ -895,8 +895,8 @@ i {
   font-size: 160px;
   font-weight: 700;
   -webkit-text-stroke-width: 0.3px;
-  -webkit-text-stroke-color: rgba(17, 17, 17, 0.3803921569);
-  -webkit-text-fill-color: #ffffff;
+  -webkit-text-fill-color: #f7f7f7;
+    -webkit-text-stroke-color: #f7f7f7;
   z-index: -1;
 }
 .section-title-area .pretitle.pretitlebg {
@@ -18972,7 +18972,7 @@ tr:first-child {
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .faq-area .container .faq-que-list .accordion-item .accordion-button {
-    padding: 21px 15px;
+    padding: 20px 40px 20px 20px;
     font-size: 15px;
     display: block;
 
@@ -18981,7 +18981,7 @@ tr:first-child {
 }
 @media (max-width: 767px) {
   .faq-area .container .faq-que-list .accordion-item .accordion-button {
-    padding: 21px 15px;
+    padding: 20px 40px 20px 20px;
     font-size: 15px;
     display: block;
     line-height: 16px;

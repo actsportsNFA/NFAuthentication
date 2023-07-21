@@ -645,7 +645,7 @@ export default function Home() {
                   <h1 class="section-title">GENERAL FAQS</h1>
                   <p>
                     Frequently Asked Questions: Everything You Need to Know
-                    About Sports
+                    About NFA
                   </p>
                 </div>
                 <div class="faq-que-list faq-que2 mb-30">

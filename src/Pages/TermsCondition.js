@@ -91,7 +91,7 @@ export default function TermsCondition() {
               </p>
               <h6 className="privacy-heading">Limitation of Liability</h6>
               <p className="privacy-para">
-                n no event shall the NFA service provider be liable for any
+                In no event shall the NFA service provider be liable for any
                 direct, indirect, incidental, special, or consequential damages
                 arising out of or in connection with the use of the NFA service.
               </p>
