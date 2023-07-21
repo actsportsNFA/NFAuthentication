@@ -4699,6 +4699,7 @@ i {
 
 .main-fader .loader img {
     height: 100%;
+    width: 100%;
 }
 .main-fader .loader img:nth-child(2) {
     position: absolute;
