@@ -12355,7 +12355,12 @@ tr:first-child {
 }
 @media (max-width: 991px) {
   .rts-gallery-section .container .section-title-area .pretitle {
-    display: none;
+    /* display: none;
+     */
+     top: -30px;
+  }
+  .rts-awards-section .section-title-area .pretitle{
+    top: -30px !important;
   }
 }
 .rts-gallery-section .container .section-title-area .section-title {
@@ -22912,6 +22917,7 @@ tr:first-child {
   }
 }
 @media (max-width: 768px) {
+  
   .dashboard .activity-box .activity-item {
     width: 100%;
     margin: 0;

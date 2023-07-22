@@ -244,7 +244,7 @@ export default function Home() {
       <div class="rts-awards-section section-gap" id="process">
         <div class="container">
           <div class="section-title-area section-title-area1 text-center mb--100">
-            <span class="pretitle">Process</span>
+            <span class="pretitle">PROCESS</span>
             <h1 class="section-title">How Does NFA Work?</h1>
             <p>
               Receive product and exclusive experiences through athletes brand
@@ -348,7 +348,7 @@ export default function Home() {
       <div class="rts-sponsors-section section-gap" id="sponsor">
         <div class="container">
           <div class="section-title-area section-title-area1 text-center mb--50">
-            <span class="pretitle">Brand</span>
+            <span class="pretitle">BRAND</span>
             <h1 class="section-title">
               Recognizable Athletes brand partnerships
             </h1>
