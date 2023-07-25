@@ -274,7 +274,7 @@ export default function Home() {
                 </div>
                 <div class="content">
                   <span class="award-title">
-                    Scan the QR code on the <br /> autographed collectible
+                    Scan the Demo QR code on the <br /> autographed collectible
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
                 </div>
@@ -475,7 +475,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="hero-image">
                   <img
-                    src="./images/qr2.png"
+                    src="./images/qr.png"
                     alt=""
                     style={{ maxHeight: "380px" }}
                   />
