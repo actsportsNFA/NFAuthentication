@@ -301,7 +301,7 @@ export default function Home() {
                 <h3>04</h3>
                 <div class="award-picture">
                   <img
-                    src="./images/shoes.webp"
+                    src="./images/new-section.webp"
                     alt="award-picture"
                     style={{ height: "155px", borderRadius: "50px" }}
                   />
