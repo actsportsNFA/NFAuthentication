@@ -275,6 +275,7 @@ export default function Home() {
                 <div class="content">
                   <span class="award-title">
                   Scan the QR code on the <br /> autographed collectible
+                  <br/>
                   (Scan For Demo)
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
