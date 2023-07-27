@@ -477,7 +477,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="hero-image">
                   <img
-                    src="./images/Logo-re.png"
+                    src="./images/main.gif"
                     alt=""
                     style={{ maxHeight: "380px" }}
                   />
