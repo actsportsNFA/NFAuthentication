@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <>
-    <Hero/>
+      <Hero />
       {/* <!--================= Gallery Start Here =================--> */}
       <section
         class="rts-single-news-section section-gap rts-gallery-section"
@@ -256,7 +256,7 @@ export default function Home() {
               <div class="award-box">
                 <h3>01</h3>
                 <div class="award-picture">
-                  <img src="./images/shirt2.png" alt="award-picture" />
+                  <img src="./images/jordan-img.jpg" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
@@ -270,13 +270,12 @@ export default function Home() {
               <div class="award-box">
                 <h3>02</h3>
                 <div class="award-picture">
-                  <img src="./images/qr2.png" alt="award-picture" />
+                  <img src="./images/chip.png"  alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
-                  Scan the QR code on the <br /> autographed collectible
-                  <br/>
-                  (Scan For Demo)
+                    Tap the chip located on the autographed collectible
+                
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
                 </div>
@@ -301,15 +300,15 @@ export default function Home() {
                 <h3>04</h3>
                 <div class="award-picture">
                   <img
-                    src="./images/new-section.webp"
+                    src="./images/gat-img.jpg"
                     alt="award-picture"
-                    style={{ height: "155px", borderRadius: "50px" }}
+                    style={{ height: "185px", borderRadius: "50px" }}
                   />
                 </div>
                 <div class="content">
                   <span class="award-title">
-                    Enjoy products, exclusive merchandise, and benefits 
-                    from athletes' brand endorsement.
+                    Enjoy products, exclusive merchandise, and benefits from
+                    athletes' brand endorsement.
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
                 </div>
@@ -477,7 +476,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="hero-image">
                   <img
-                    src="./images/main.gif"
+                    src="./images/main-card.gif"
                     alt=""
                     style={{ maxHeight: "380px" }}
                   />
@@ -642,7 +641,10 @@ export default function Home() {
           <div class="row align-items-center pb-90 pb-md-30 pb-xs-30">
             <div class="col-lg-12 col-md-12">
               <div class="faq-content-wrapper2 faq-wrap3 pr-30 pr-lg-0 pr-md-0 pr-xs-0">
-                <div class="section-title-area section-title-area1 text-center mb--50" style={{position:'relative'}}>
+                <div
+                  class="section-title-area section-title-area1 text-center mb--50"
+                  style={{ position: "relative" }}
+                >
                   <span class="pretitle">FAQS</span>
                   <h1 class="section-title">GENERAL FAQS</h1>
                   <p>
