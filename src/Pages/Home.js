@@ -274,7 +274,7 @@ export default function Home() {
                 </div>
                 <div class="content">
                   <span class="award-title">
-                    Tap the chip located on the autographed collectible
+                    Tap the chip located <br/> on the autographed collectible
                 
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
@@ -285,7 +285,7 @@ export default function Home() {
               <div class="award-box">
                 <h3>03</h3>
                 <div class="award-picture">
-                  <img src="./images/card2.png" alt="award-picture" />
+                  <img src="./images/main-card.gif" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
