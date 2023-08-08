@@ -100,12 +100,15 @@ export default function Navbar() {
         <div class="main-fader responsive-height-comments">
           <div class="loader">
            
-            <img
+            {/* <img
               class="main_logo"
               src="./images/Logo-re.png"
               alt="nfa-logo"
         
-            />
+            /> */}
+            <video  width="700" height="700" loop muted autoPlay>
+                      <source src="./images/logo3.mp4"  type="video/mp4"/>
+                  </video>
          
           </div>
         </div>

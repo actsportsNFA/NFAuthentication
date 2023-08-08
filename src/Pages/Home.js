@@ -256,7 +256,7 @@ export default function Home() {
               <div class="award-box">
                 <h3>01</h3>
                 <div class="award-picture">
-                  <img src="./images/jordan-img.jpg" alt="award-picture" />
+                  <img src="./images/image-re-sign.jpg" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
@@ -285,7 +285,11 @@ export default function Home() {
               <div class="award-box">
                 <h3>03</h3>
                 <div class="award-picture">
-                  <img src="./images/main-card.gif" alt="award-picture" />
+                  <video  width="200" height="200" loop muted autoPlay>
+                      <source src="./images/card-mov-card.mp4"  type="video/mp4"/>
+                  </video>
+                 
+                  {/* <img src="./images/main-card.gif" alt="award-picture" /> */}
                 </div>
                 <div class="content">
                   <span class="award-title">
@@ -475,11 +479,14 @@ export default function Home() {
               </div>
               <div class="col-lg-6">
                 <div class="hero-image">
-                  <img
+                  {/* <img
                     src="./images/main-card.gif"
                     alt=""
                     style={{ maxHeight: "380px" }}
-                  />
+                  /> */}
+                  <video  width="500" height="400" loop muted autoPlay>
+                      <source src="./images/logo2.mp4"  type="video/mp4"/>
+                  </video>
                 </div>
               </div>
             </div>
