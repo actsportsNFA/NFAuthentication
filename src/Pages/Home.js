@@ -58,7 +58,7 @@ export default function Home() {
             <h1 class="section-title">Why NFA ?</h1>
             <p>
               {" "}
-              Unlock the world of collectibles and discover the benefits of
+              Unlock the world of collectables and discover the benefits of
               owning exclusive digital authentications!
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function Home() {
                                         </div> --> */}
                         <div class="gallery-title">
                           <a href="#">
-                            Sports collectible <br /> ownership tracking
+                            Sports collectable <br /> ownership tracking
                           </a>
                         </div>
                       </div>
@@ -210,9 +210,9 @@ export default function Home() {
                     </h1>
                     <p>
                       NFA is a powerful tool that allows athletes to
-                      authenticate their sports collectibles <br />
+                      authenticate their sports collectables <br />
                       using blockchain technology. Meaning fans can trust that
-                      the collectibles <br />
+                      the collectables <br />
                       they purchase are authentic and verified by the athletes.{" "}
                     </p>
                   </div>
@@ -256,11 +256,11 @@ export default function Home() {
               <div class="award-box">
                 <h3>01</h3>
                 <div class="award-picture">
-                  <img src="./images/image-re-sign.jpg" alt="award-picture" />
+                  <img src="./images/img-1765.webp" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
-                    Buy the athlete's NFA <br /> autographed collectible
+                    Buy the athlete's NFA <br /> autographed collectable
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
                 </div>
@@ -270,11 +270,11 @@ export default function Home() {
               <div class="award-box">
                 <h3>02</h3>
                 <div class="award-picture">
-                  <img src="./images/chip.png"  alt="award-picture" />
+                  <img src="./images/s-l1200.webp"  alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
-                    Tap the chip located <br/> on the autographed collectible
+                    Tap the chip located <br/> on the autographed collectable
                 
                   </span>
                   {/* <!-- <p>FINAL TOUR</p> --> */}
@@ -289,7 +289,7 @@ export default function Home() {
                       <source src="./images/card-mov-card.mp4"  type="video/mp4"/>
                   </video> */}
                  
-                  <img src="./images/main-card-new.gif" alt="award-picture" />
+                  <img src="./images/r.gif" alt="award-picture" />
                 </div>
                 <div class="content">
                   <span class="award-title">
@@ -480,7 +480,7 @@ export default function Home() {
               <div class="col-lg-6">
                 <div class="hero-image">
                   <img
-                    src="./images/logo2-unscreen.gif"
+                    src="./images/logo3-hq.gif"
                     alt=""
                     style={{ maxHeight: "380px" }}
                   />
@@ -726,7 +726,7 @@ export default function Home() {
                             <li>
                               1. Authenticity Verification: NFA digital
                               authentication provides a secure and immutable way
-                              to verify the authenticity of collectible items.
+                              to verify the authenticity of collectable items.
                               By attaching a unique NFA to a physical object,
                               collectors can have confidence in its provenance,
                               ensuring that it is genuine and not counterfeit.
@@ -742,7 +742,7 @@ export default function Home() {
                             </li>
                             <li>
                               3. Rarity and Scarcity: NFAs can be used to
-                              establish the rarity and scarcity of collectible
+                              establish the rarity and scarcity of collectable
                               items. By assigning a limited number of NFAs to
                               specific items, collectors can have verifiable
                               proof of their item's exclusivity, adding value to
@@ -811,7 +811,7 @@ export default function Home() {
                             <li>
                               2. Establish Ownership: NFA digital authentication
                               provides a secure and transparent way to prove
-                              ownership of your collectible items.
+                              ownership of your collectable items.
                             </li>
                             <li>
                               3. Enhance Value: By associating NFA with your
