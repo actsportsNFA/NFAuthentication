@@ -16,7 +16,7 @@ export default function Hero() {
                     <div class="banner-content">
                       <span class="pretitle">WELCOME TO NFA</span>
                       <h1 class="banner-heading">
-                        The Players <br />
+                        The Celebrities <br />
                         Authentication
                       </h1>
                       <div class="banner-btn-area">
@@ -35,7 +35,7 @@ export default function Hero() {
                     <div class="banner-content">
                       <span class="pretitle">WELCOME TO NFA</span>
                       <h1 class="banner-heading">
-                        Athletes brand <br />
+                      Celebrities brand <br />
                         endorsement
                       </h1>
                       <div class="banner-btn-area">
