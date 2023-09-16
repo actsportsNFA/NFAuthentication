@@ -490,6 +490,7 @@ export default function Home() {
               <div class="col-lg-3">
                 <div class="hero-image">
                   <img
+                  src="./images/newchange1.png"
                   alt=""
                   style={{height:"230px",borderRadius:"20px"}}
                 />
