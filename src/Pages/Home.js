@@ -67,7 +67,7 @@ export default function Home() {
               <div class="col-lg-4 col-md-6">
                 <div class="item">
                   <a class="gallery-picture">
-                    <img src="./images/card-1.jpg" alt="" />
+                    <img src="./images/newchange4.png" alt="" />
                   </a>
                   <div class="contents-wrapper">
                     <div class="contents text-center">
@@ -107,7 +107,7 @@ export default function Home() {
                                         </div> --> */}
                         <div class="gallery-title">
                           <a href="#">
-                            Sports collectable <br /> ownership tracking
+                          Autographed collectible <br /> authentication ownership
                           </a>
                         </div>
                       </div>
@@ -209,11 +209,11 @@ export default function Home() {
                       <span>NFA IS A POWERFULL</span> <br /> AUTHENTICATION
                     </h1>
                     <p>
-                      NFA is a powerful tool that allows athletes to
+                      NFA is a powerful tool that allows Celebs to
                       authenticate their sports collectables <br />
                       using blockchain technology. Meaning fans can trust that
                       the collectables <br />
-                      they purchase are authentic and verified by the athletes.{" "}
+                      they purchase are authentic and verified by the Celebs.{" "}
                     </p>
                   </div>
                   <ul>
@@ -222,7 +222,7 @@ export default function Home() {
                       <h3 class="title">Guarantee</h3>
                     </li>
                     <li class="player">
-                      <p class="sub">Tracking</p>
+                      <p class="sub">Authentication</p>
                       <h3 class="title">Ownership</h3>
                     </li>
                     <li class="player">
@@ -247,7 +247,7 @@ export default function Home() {
             <span class="pretitle">PROCESS</span>
             <h1 class="section-title">How Does NFA Work?</h1>
             <p>
-              Receive product and exclusive experiences through athletes brand
+              Receive product and exclusive experiences through Celebs brand
               partnerships.
             </p>
           </div>
@@ -262,7 +262,7 @@ export default function Home() {
                   <span class="award-title">
                     Buy the athlete's NFA <br /> autographed collectable
                   </span>
-                  {/* <!-- <p>FINAL TOUR</p> --> */}
+            
                 </div>
               </div>
             </div>
@@ -277,7 +277,7 @@ export default function Home() {
                     Tap the chip located <br/> on the autographed collectable label
                 
                   </span>
-                  {/* <!-- <p>FINAL TOUR</p> --> */}
+                 
                 </div>
               </div>
             </div>
@@ -285,9 +285,7 @@ export default function Home() {
               <div class="award-box">
                 <h3>03</h3>
                 <div class="award-picture">
-                  {/* <video  width="200" height="200" loop muted autoPlay>
-                      <source src="./images/card-mov-card.mp4"  type="video/mp4"/>
-                  </video> */}
+                 
                  
                   <img src="./images/r.gif" alt="award-picture" />
                 </div>
@@ -295,7 +293,7 @@ export default function Home() {
                   <span class="award-title">
                     Redeem NFA <br /> Authentication
                   </span>
-                  {/* <!-- <p>FINAL TOUR</p> --> */}
+             
                 </div>
               </div>
             </div>
@@ -312,9 +310,9 @@ export default function Home() {
                 <div class="content">
                   <span class="award-title">
                     Enjoy products, exclusive merchandise, and benefits from
-                    athletes' brand endorsement.
+                    Celebrities' brand endorsement.
                   </span>
-                  {/* <!-- <p>FINAL TOUR</p> --> */}
+                 
                 </div>
               </div>
             </div>
@@ -355,11 +353,11 @@ export default function Home() {
           <div class="section-title-area section-title-area1 text-center mb--50">
             <span class="pretitle">BRAND</span>
             <h1 class="section-title">
-              Recognizable Athletes brand partnerships
+              Recognizable Celebs brand partnerships
             </h1>
             <p>
               Our NFA digital authentication grants you exclusive access to the
-              brand partners of the athletes.
+              brand partners of the Celebs.
             </p>
           </div>
           <div class="sponsors-section-inner">
@@ -446,7 +444,7 @@ export default function Home() {
       <div class="rts-newsletter-section" id="contact">
         <div class="container">
           <div class="newsletter-inner">
-            <div class="row">
+            <div class="row align-items-center">
               <div class="col-lg-6">
                 <div class="newsletter-box">
                   <div class="shape">
@@ -477,13 +475,25 @@ export default function Home() {
                   </form>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-3">
                 <div class="hero-image">
                   <img
-                    src="./images/logo3-hq.gif"
+                    src="./images/newchange3.png"
                     alt=""
-                    style={{ maxHeight: "380px" }}
+                    style={{height:"230px",borderRadius:"20px"}}
                   />
+                  {/* <video  width="500" height="400" loop muted autoPlay>
+                      <source src="./images/logo2.mp4"  type="video/mp4"/>
+                  </video> */}
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="hero-image">
+                  <img
+                  src="./images/newchange1.png"
+                  alt=""
+                  style={{height:"230px",borderRadius:"20px"}}
+                />
                   {/* <video  width="500" height="400" loop muted autoPlay>
                       <source src="./images/logo2.mp4"  type="video/mp4"/>
                   </video> */}
@@ -882,7 +892,7 @@ export default function Home() {
                           </p>
                           <ul>
                             <li>
-                              1. Purchase the NFA Athletes Autograph Collection:
+                              1. Purchase the NFA Celebs Autograph Collection:
                               Visit nfauthentication.com and select the desired
                               NFA athlete's autograph collection.
                             </li>
