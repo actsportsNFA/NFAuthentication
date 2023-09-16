@@ -478,22 +478,10 @@ export default function Home() {
               <div class="col-lg-3">
                 <div class="hero-image">
                   <img
-                    src="./images/newchange3.png"
+                    src="./images/logo3-hq.gif"
                     alt=""
                     style={{height:"230px",borderRadius:"20px"}}
                   />
-                  {/* <video  width="500" height="400" loop muted autoPlay>
-                      <source src="./images/logo2.mp4"  type="video/mp4"/>
-                  </video> */}
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="hero-image">
-                  <img
-                  src="./images/newchange1.png"
-                  alt=""
-                  style={{height:"230px",borderRadius:"20px"}}
-                />
                   {/* <video  width="500" height="400" loop muted autoPlay>
                       <source src="./images/logo2.mp4"  type="video/mp4"/>
                   </video> */}
