@@ -107,7 +107,8 @@ export default function Home() {
                                         </div> --> */}
                         <div class="gallery-title">
                           <a href="#">
-                          Autographed collectible <br /> authentication ownership
+                            Autographed collectible <br /> authentication
+                            ownership
                           </a>
                         </div>
                       </div>
@@ -209,8 +210,8 @@ export default function Home() {
                       <span>NFA IS A POWERFULL</span> <br /> AUTHENTICATION
                     </h1>
                     <p>
-                      NFA is a powerful tool that allows Celebs to
-                      authenticate their sports collectables <br />
+                      NFA is a powerful tool that allows Celebs to authenticate
+                      their collectables <br />
                       using blockchain technology. Meaning fans can trust that
                       the collectables <br />
                       they purchase are authentic and verified by the Celebs.{" "}
@@ -247,11 +248,24 @@ export default function Home() {
             <span class="pretitle">PROCESS</span>
             <h1 class="section-title">How Does NFA Work?</h1>
             <p>
-              Receive product and exclusive experiences through Celebs brand
+              Receive product and exclusive experiences through celebs brand
               partnerships.
             </p>
           </div>
-          <div class="row">
+        <div className="row">
+        <iframe
+            width="1653"
+            height="773"
+            src="https://www.youtube.com/embed/avFr0nPt2Uk"
+            title="Introducing Near-Field Authentication (NFA): Revolutionizing Collectibles!"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            
+          ></iframe>
+        </div>
+         
+          {/* <div class="row">
             <div class="col-xl-3 col-md-6">
               <div class="award-box">
                 <h3>01</h3>
@@ -316,7 +330,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -330,7 +344,7 @@ export default function Home() {
                 </div> --> */}
             <div class="section-title-area section-title-area1 text-center text-white">
               <h1 class="section-title">
-                Join your favorite athlete community
+                Join your favorite celebs community
               </h1>
               <p>
                 Digital authentications, when tethered to physical items, ascend
@@ -357,7 +371,7 @@ export default function Home() {
             </h1>
             <p>
               Our NFA digital authentication grants you exclusive access to the
-              brand partners of the Celebs.
+              brand partners of the celebs.
             </p>
           </div>
           <div class="sponsors-section-inner">
@@ -480,7 +494,7 @@ export default function Home() {
                   <img
                     src="./images/newchange3.png"
                     alt=""
-                    style={{height:"230px",borderRadius:"20px"}}
+                    style={{ height: "230px", borderRadius: "20px" }}
                   />
                   {/* <video  width="500" height="400" loop muted autoPlay>
                       <source src="./images/logo2.mp4"  type="video/mp4"/>
@@ -490,10 +504,10 @@ export default function Home() {
               <div class="col-lg-3">
                 <div class="hero-image">
                   <img
-                  src="./images/newchange1.png"
-                  alt=""
-                  style={{height:"230px",borderRadius:"20px"}}
-                />
+                    src="./images/newchange1.png"
+                    alt=""
+                    style={{ height: "230px", borderRadius: "20px" }}
+                  />
                   {/* <video  width="500" height="400" loop muted autoPlay>
                       <source src="./images/logo2.mp4"  type="video/mp4"/>
                   </video> */}
