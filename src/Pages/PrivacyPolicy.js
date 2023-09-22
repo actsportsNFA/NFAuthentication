@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
                 contact@nfauthentication.io.
                 <br />
                 <br />
-                Thank you for choosing Near Field Authentication (NFA). We are
+                Thank you for choosing Near Field Authentication (NFA) . We are
                 dedicated to safeguarding your privacy and ensuring a secure
                 online experience
               </p>
