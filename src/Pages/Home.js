@@ -107,7 +107,7 @@ export default function Home() {
                                         </div> --> */}
                         <div class="gallery-title">
                           <a href="#">
-                            Autographed collectible <br /> authentication
+                            Autographed collectible <br /> COA
                             ownership
                           </a>
                         </div>
@@ -748,7 +748,7 @@ export default function Home() {
                           </p>
                           <ul>
                             <li>
-                              1. Authenticity Verification: NFA digital
+                              1. Authenticity Verification: NFA 
                               authentication provides a secure and immutable way
                               to verify the authenticity of collectable items.
                               By attaching a unique NFA to a physical object,
@@ -756,7 +756,7 @@ export default function Home() {
                               ensuring that it is genuine and not counterfeit.
                             </li>
                             <li>
-                              2. Ownership Confirmation: NFA digital
+                              2. Ownership Confirmation: NFA 
                               authentication allows collectors to prove
                               ownership of their items. The blockchain-based
                               nature of NFTs provides a transparent and
@@ -773,7 +773,7 @@ export default function Home() {
                               their collection.
                             </li>
                             <li>
-                              4. Trading and Marketplace Efficiency: NFA digital
+                              4. Trading and Marketplace Efficiency: NFA 
                               authentication enables collectors to easily buy,
                               sell, and trade their items in digital
                               marketplaces. Using NFAs simplifies the process,
@@ -782,7 +782,7 @@ export default function Home() {
                               collectors a seamless and efficient experience.
                             </li>
                             <li>
-                              5. Enhanced Collecting Experience: NFA digital
+                              5. Enhanced Collecting Experience: NFA 
                               authentication adds a layer of innovation and
                               excitement to the collecting experience.
                               Collectors can engage in unique digital
@@ -812,7 +812,7 @@ export default function Home() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          <span>03.</span> What can I do with a NFA digital
+                          <span>03.</span> What can I do with a NFA 
                           authentication?
                         </button>
                       </h2>
@@ -889,7 +889,7 @@ export default function Home() {
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          <span>04.</span> How do I get a NFA digital
+                          <span>04.</span> How do I get a NFA
                           authentication?
                         </button>
                       </h2>
@@ -957,7 +957,7 @@ export default function Home() {
                           aria-expanded="false"
                           aria-controls="collapseFive"
                         >
-                          <span>05.</span> Where do I store my NFA digital
+                          <span>05.</span> Where do I store my NFA 
                           authentication?
                         </button>
                       </h2>
