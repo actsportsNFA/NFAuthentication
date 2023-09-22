@@ -21,7 +21,7 @@ export default function TermsCondition() {
           <div className="row">
             <div className="col-lg-12" >
               <h4 style={{textAlign:'center',margin:'45px'}}>
-                Terms and Conditions for Non-Fungible Authentication (NFA)
+                Terms and Conditions for  Near Field Authentication (NFA)
               </h4>
               <h5 style={{marginBottom:'30px'}}>Effective as of January 1, 2023</h5>
               <h6 className="privacy-heading">Acceptance of Terms</h6>
@@ -34,7 +34,7 @@ export default function TermsCondition() {
               </p>
               <h6 className="privacy-heading">NFA Overviews</h6>
               <p className="privacy-para">
-                The NFA service aims to provide non-fungible authentication for
+                The NFA service aims to provide  Near Field Authentication for
                 digital assets, including but not limited to non-fungible tokens
                 (NFTs) and other unique digital collectibles.
               </p>

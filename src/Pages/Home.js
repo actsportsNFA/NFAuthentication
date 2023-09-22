@@ -59,7 +59,7 @@ export default function Home() {
             <p>
               {" "}
               Unlock the world of collectables and discover the benefits of
-              owning exclusive digital authentications!
+              owning exclusive authentications!
             </p>
           </div>
           <div class="section-inner">
@@ -347,7 +347,7 @@ export default function Home() {
                 Join your favorite celebs community
               </h1>
               <p>
-                Digital authentications, when tethered to physical items, ascend
+                Authentications, when tethered to physical items, ascend
                 to new heights of value, forging a bridge between the intangible
                 and the tangible.
               </p>
@@ -370,7 +370,7 @@ export default function Home() {
               Recognizable Celebs brand partnerships
             </h1>
             <p>
-              Our NFA digital authentication grants you exclusive access to the
+              Our NFA authentication grants you exclusive access to the
               brand partners of the celebs.
             </p>
           </div>
@@ -695,7 +695,7 @@ export default function Home() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          <span>01.</span>What is NFA digital authentication?
+                          <span>01.</span>What is NFA authentication?
                         </button>
                       </h2>
                       <div
@@ -706,7 +706,7 @@ export default function Home() {
                       >
                         <div class="accordion-body">
                           <p class="fs-14">
-                            NFA (Non-Fungible Authentication) are unique digital
+                            NFA (Near Field Authentication) are unique digital
                             authentication cards to verify the authenticity and
                             ownership of physical goods. By creating a digital
                             representation of a physical item on a blockchain,
@@ -730,7 +730,7 @@ export default function Home() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          <span>02.</span> Why is NFA digital authentication
+                          <span>02.</span> Why is NFA authentication
                           important?
                         </button>
                       </h2>
@@ -742,7 +742,7 @@ export default function Home() {
                       >
                         <div class="accordion-body">
                           <p class="fs-14">
-                            NFA digital authentication is important for
+                            NFA authentication is important for
                             collectors because it enhances their exclusive
                             experience in several ways:
                           </p>
@@ -792,7 +792,7 @@ export default function Home() {
                               physical items.
                             </li>
                             <p>
-                              Overall, NFA digital authentication enhances
+                              Overall, NFA authentication enhances
                               collectors' exclusive experience by ensuring
                               authenticity, establishing ownership, validating
                               rarity, facilitating trading, and introducing new
@@ -824,7 +824,7 @@ export default function Home() {
                       >
                         <div class="accordion-body">
                           <p class="fs-14">
-                            With NFA digital authentication, you can:
+                            With NFA authentication, you can:
                           </p>
                           <ul>
                             <li>
@@ -833,7 +833,7 @@ export default function Home() {
                               genuine and not counterfeit.
                             </li>
                             <li>
-                              2. Establish Ownership: NFA digital authentication
+                              2. Establish Ownership: NFA authentication
                               provides a secure and transparent way to prove
                               ownership of your collectable items.
                             </li>
@@ -869,7 +869,7 @@ export default function Home() {
                               offered to NFA's community members.
                             </li>
                             <p>
-                              In summary, NFA digital authentication allows you
+                              In summary, NFA authentication allows you
                               to validate authenticity, establish ownership,
                               enhance value, trade items, engage in digital
                               experiences, and connect with fellow collectors in
@@ -901,7 +901,7 @@ export default function Home() {
                       >
                         <div class="accordion-body">
                           <p class="fs-14">
-                            To obtain NFA digital authentication for a physical
+                            To obtain NFA authentication for a physical
                             item, follow these steps:
                           </p>
                           <ul>
@@ -939,7 +939,7 @@ export default function Home() {
                             <p>
                               By scanning the QR code and going through the
                               redemption process, you can obtain your NFA
-                              digital authentication card, ensuring the
+                              authentication card, ensuring the
                               authenticity and ownership of your NFA athlete's
                               autograph collection item.
                             </p>
@@ -969,13 +969,13 @@ export default function Home() {
                       >
                         <div class="accordion-body">
                           <p class="fs-14">
-                            You can store your NFA digital authentication in a
+                            You can store your NFA authentication in a
                             digital wallet. If you already have a digital wallet
                             that supports NFTs, you can use that. Otherwise, NFA
                             offers a convenient option to create a digital
                             wallet in seconds using your phone number through
                             SMS or WhatsApp. This wallet will securely hold your
-                            NFA digital authentication cards, allowing you to
+                            NFA authentication cards, allowing you to
                             manage and access them whenever needed.
                           </p>
                         </div>
