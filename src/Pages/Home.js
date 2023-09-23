@@ -706,7 +706,7 @@ export default function Home() {
                       >
                         <div class="accordion-body">
                           <p class="fs-14">
-                            NFA (Near Field Authentication) are unique digital
+                            NFA (Near-Field Authentication) are unique digital
                             authentication cards to verify the authenticity and
                             ownership of physical goods. By creating a digital
                             representation of a physical item on a blockchain,

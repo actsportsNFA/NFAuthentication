@@ -26,8 +26,7 @@ export default function TermsCondition() {
               <h5 style={{marginBottom:'30px'}}>Effective as of January 1, 2023</h5>
               <h6 className="privacy-heading">Acceptance of Terms</h6>
               <p className="privacy-para">
-                By accessing, using, or interacting with the Non-Fungible
-                Authentication (NFA) LLC, a Florida limited liability company
+                By accessing, using, or interacting with the Near-Field Authentication (NFA) LLC, a Florida limited liability company
                 service, you agree to be bound by these Terms and Conditions. If
                 you do not agree to these terms, you may not use the NFA
                 service.
