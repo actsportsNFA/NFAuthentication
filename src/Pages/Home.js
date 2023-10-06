@@ -210,11 +210,11 @@ export default function Home() {
                       <span>NFA IS A POWERFULL</span> <br /> AUTHENTICATION
                     </h1>
                     <p>
-                      NFA is a powerful tool that allows Celebs to authenticate
+                      NFA is a powerful tool that allows celebs to authenticate
                       their collectables <br />
                       using blockchain technology. Meaning fans can trust that
                       the collectables <br />
-                      they purchase are authentic and verified by the Celebs.{" "}
+                      they purchase are authentic and verified by the celebs.{" "}
                     </p>
                   </div>
                   <ul>
