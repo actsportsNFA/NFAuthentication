@@ -467,7 +467,7 @@ export default function Home() {
                   <div class="section-title-area section-title-area1 text-start mb--50">
                     <h1 class="section-title">SUBSCRIBE NEWSLETTER</h1>
                     <p>
-                      Game Changer: Stay Ahead of the Game with our NFA
+                      Game Changer: Stay ahead of the game with our NFA
                       Newsletter
                     </p>
                   </div>

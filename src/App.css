@@ -1335,8 +1335,12 @@ i {
   margin: 10px 0;
 }
 @media (max-width: 520px) {
+  #rtsHeader.rts-header1 .navbar-part{
+    margin-top: 20px;
+  }
     .main_logo{
-        height: 30px;
+      height: 60px;
+      margin: 0px 0;
     }
     .rts-post-2 .contents {
     padding: 20px;
