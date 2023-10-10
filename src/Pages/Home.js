@@ -184,7 +184,7 @@ export default function Home() {
         </div>
         <div class="shape2">
           <img
-            src="./images/logo-re.png"
+            src="./Updated-Logo-beta.png"
             style={{ opacity: "0.1", width: "320px" }}
             alt=""
           />
