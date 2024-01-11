@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import Hero from "../Components/Hero";
+import Howitworks from "../Components/Howitworks";
+import Howitworks2 from "../Components/Howitworks2";
+
 
 export default function Home() {
   const Swiper = window.Swiper;
@@ -47,22 +50,27 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Howitworks />
+      <Howitworks2 />
+
+   
+
       {/* <!--================= Gallery Start Here =================--> */}
-      <section
+      {/* <section
         class="rts-single-news-section section-gap rts-gallery-section"
         id="cards"
-      >
-        <div class="container">
-          <div class="section-title-area section-title-area1 text-center mb--50">
-            <span class="pretitle">BENEFITS</span>
-            <h1 class="section-title">Why NFA ?</h1>
-            <p>
+      > */}
+        {/* <div class="container"> */}
+          {/* <div class="section-title-area section-title-area1 text-center mb--50"> */}
+            {/* <span class="pretitle">BENEFITS</span> */}
+            {/* <h1 class="section-title">Why NFA ?</h1> */}
+            {/* <p>
               {" "}
               Unlock the world of collectables and discover the benefits of
               owning exclusive authentications!
-            </p>
-          </div>
-          <div class="section-inner">
+            </p> */}
+          {/* </div> */}
+          {/* <div class="section-inner">
             <div class="row">
               <div class="col-lg-4 col-md-6">
                 <div class="item">
@@ -72,27 +80,27 @@ export default function Home() {
                   <div class="contents-wrapper">
                     <div class="contents text-center">
                       <div class="d-block">
-                        <i class="fa-regular fa-medal"></i>
+                        <i class="fa-regular fa-medal"></i> */}
                         {/* <!-- <div class="heading d-flex">
                                             <p class="tag">NFA</p>
                                             <span class="blog-date">JULY 21, 2023</span>
                                         </div> --> */}
-                        <div class="gallery-title">
+                        {/* <div class="gallery-title">
                           <a href="#">
                             Guarantee 100% <br /> authenticity
                           </a>
-                        </div>
-                      </div>
+                        </div> */}
+                      {/* </div> */}
                       {/* <!-- <div class="author-info">
                                         <div class="content">
                                             <a href="#" class="read-more">READ MORE</a>
                                         </div>
                                     </div> --> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
+                    {/* </div> */}
+                  {/* </div> */}
+                {/* </div> */}
+              {/* </div> */}
+              {/* <div class="col-lg-4 col-md-6">
                 <div class="item">
                   <a class="gallery-picture">
                     <img src="./images/img.jpg" alt="" />
@@ -100,28 +108,28 @@ export default function Home() {
                   <div class="contents-wrapper">
                     <div class="contents text-center">
                       <div class="d-block">
-                        <i class="fa-solid fa-display-chart-up-circle-currency"></i>
+                        <i class="fa-solid fa-display-chart-up-circle-currency"></i> */}
                         {/* <!-- <div class="heading d-flex">
                                             <p class="tag">NFA</p>
                                             <span class="blog-date">JULY 21, 2023</span>
                                         </div> --> */}
-                        <div class="gallery-title">
+                        {/* <div class="gallery-title">
                           <a href="#">
                             Autographed collectible <br /> COA
                             ownership
                           </a>
-                        </div>
-                      </div>
+                        </div> */}
+                      {/* </div> */}
                       {/* <!-- <div class="author-info">
                                         <div class="content">
                                             <a href="#" class="read-more">READ MORE</a>
                                         </div>
                                     </div> --> */}
-                    </div>
+                    {/* </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
+              </div> */}
+              {/* <div class="col-lg-4 col-md-6">
                 <div class="item">
                   <a class="gallery-picture">
                     <img src="./images/img-2.png" alt="" />
@@ -129,26 +137,26 @@ export default function Home() {
                   <div class="contents-wrapper">
                     <div class="contents text-center">
                       <div class="d-block">
-                        <i class="fa-regular fa-microchip"></i>
+                        <i class="fa-regular fa-microchip"></i> */}
                         {/* <!-- <div class="heading d-flex">
                                             <p class="tag">NFA</p>
                                             <span class="blog-date"> JULY 21, 2023</span>
                                         </div> --> */}
-                        <div class="gallery-title">
+                        {/* <div class="gallery-title">
                           <a href="#">
                             Exclusive personalized <br /> fan experience
                           </a>
-                        </div>
-                      </div>
+                        </div> */}
+                      {/* </div> */}
                       {/* <!-- <div class="author-info">
                                         <div class="content">
                                             <a href="#" class="read-more">READ MORE</a>
                                         </div>
                                     </div> --> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    {/* </div>
+                  </div> */}
+                {/* </div>
+              </div> */}
               {/* <!-- <div class="col-lg-3 col-md-6">
                         <div class="item">
                             <a href="bog-details.html" class="gallery-picture"><img src="./images/blog/blog11.jpg" alt=""></a>
@@ -172,13 +180,13 @@ export default function Home() {
                             </div>
                         </div>
                     </div> --> */}
-            </div>
-          </div>
-        </div>
-      </section>
+            {/* </div> */}
+          {/* </div>
+        </div> */}
+       {/* </section> */}
 
       {/* <!--================= About Section Start Here =================--> */}
-      <div class="rts-about-section section-gap" id="about">
+      {/* <div class="rts-about-section section-gap" id="about">
         <div class="shape1">
           <img src="./images/shape2.png" alt="" />
         </div>
@@ -188,8 +196,8 @@ export default function Home() {
             style={{ opacity: "0.1", width: "320px" }}
             alt=""
           />
-        </div>
-        <div class="container-1">
+        </div> */}
+        {/* <div class="container-1">
           <div class="about-inner">
             <div class="row align-items-center">
               <div class="col-lg-5 col-12">
@@ -201,12 +209,12 @@ export default function Home() {
                     <img src="./images/shirts.png" alt="about-thumb" />
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-7 col-12">
+              </div> */}
+              {/* <div class="col-lg-7 col-12">
                 <div class="contents">
                   <div class="section-title-area section-title-area1 text-start">
                     {/* <span class="pretitle">GAMES</span> */}
-                    <h1 class="section-title">
+                    {/* <h1 class="section-title">
                       <span>NFA IS A POWERFULL</span> <br /> AUTHENTICATION
                     </h1>
                     <p>
@@ -234,15 +242,15 @@ export default function Home() {
                   <a href="https://nfauthentication.com/" class="more-btn">
                     Join now<i class="fal fa-long-arrow-right"></i>
                   </a>
-                </div>
-              </div>
-            </div>
+                </div> */}
+              {/* </div>  */}
+            {/* </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       {/* <!--================= About Section End Here =================--> */}
 
-      <div class="rts-awards-section section-gap" id="process">
+      {/* <div class="rts-awards-section section-gap" id="process">
         <div class="container">
           <div class="section-title-area section-title-area1 text-center mb--100">
             <span class="pretitle">PROCESS</span>
@@ -263,7 +271,7 @@ export default function Home() {
             allowfullscreen
             
           ></iframe>
-        </div>
+        </div> */}
          
           {/* <div class="row">
             <div class="col-xl-3 col-md-6">
@@ -331,18 +339,18 @@ export default function Home() {
               </div>
             </div>
           </div> */}
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
 
       {/* <!--================= Video Section Start Here =================--> */}
-      <div class="rts-video-section">
+      {/* <div class="rts-video-section">
         <div class="container">
-          <div class="video-section-inner text-center">
+          <div class="video-section-inner text-center"> */}
             {/* <!-- <div class="play-video">
                     <a class="popup-video" href="https://www.youtube.com/watch?v=G4t6TqG5LM8"><i
                             class="fas fa-play"></i></a>
                 </div> --> */}
-            <div class="section-title-area section-title-area1 text-center text-white">
+            {/* <div class="section-title-area section-title-area1 text-center text-white">
               <h1 class="section-title">
                 Join your favorite celebs community
               </h1>
@@ -351,18 +359,18 @@ export default function Home() {
                 to new heights of value, forging a bridge between the intangible
                 and the tangible.
               </p>
-            </div>
-            <div class="col-lg-2 text-center mt-3">
+            </div> */}
+            {/* <div class="col-lg-2 text-center mt-3">
               <a href="https://nfauthentication.com/" class="more-btn d-block">
                 JOIN NOW <i class="fal fa-long-arrow-right"></i>
               </a>
-            </div>
-          </div>
-        </div>
-      </div>
+            </div> */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </div> */}
       {/* <!--================= VIdeo Section End Here =================-->
     <!--================= Sponsors Section Start Here =================--> */}
-      <div class="rts-sponsors-section section-gap" id="sponsor">
+      {/* <div class="rts-sponsors-section section-gap" id="sponsor">
         <div class="container">
           <div class="section-title-area section-title-area1 text-center mb--50">
             <span class="pretitle">BRAND</span>
@@ -373,8 +381,8 @@ export default function Home() {
               Our NFA authentication grants you exclusive access to the
               brand partners of the celebs.
             </p>
-          </div>
-          <div class="sponsors-section-inner">
+          </div> */}
+          {/* <div class="sponsors-section-inner">
             <div class="swiper rts-brandSlider">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -390,8 +398,8 @@ export default function Home() {
                       <img src="./images/brand2.svg" alt="sponsor" />
                     </div>
                   </a>
-                </div>
-                <div class="swiper-slide">
+                </div> */}
+                {/* <div class="swiper-slide">
                   <a href="#0" class="sponsor-single">
                     <div class="sponsors-logo">
                       <img src="./images/brand3.svg" alt="sponsor" />
@@ -451,11 +459,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!--================= Sponsors Table Section End Here =================--> */}
 
       {/* <!--================= Newsletter Section Start Here =================--> */}
-      <div class="rts-newsletter-section" id="contact">
+      {/* <div class="rts-newsletter-section" id="contact">
         <div class="container">
           <div class="newsletter-inner">
             <div class="row align-items-center">
@@ -478,8 +486,7 @@ export default function Home() {
                         class="form-control"
                         id="username"
                         placeholder="Enter Your Email"
-                        required
-                      />
+                        required/>
                     </div>
                     <div class="button">
                       <button type="submit" class="btn">
@@ -494,29 +501,28 @@ export default function Home() {
                   <img
                     src="./images/newchange3.png"
                     alt=""
-                    style={{ height: "230px", borderRadius: "20px" }}
-                  />
+                    style={{ height: "230px", borderRadius: "20px" }}/>
                   {/* <video  width="500" height="400" loop muted autoPlay>
                       <source src="./images/logo2.mp4"  type="video/mp4"/>
                   </video> */}
-                </div>
-              </div>
-              <div class="col-lg-3">
+                {/* </div> */}
+              {/* </div> */}
+              {/* <div class="col-lg-3">
                 <div class="hero-image">
                   <img
                     src="./images/newchange1.png"
                     alt=""
                     style={{ height: "230px", borderRadius: "20px" }}
-                  />
+                  /> */}
                   {/* <video  width="500" height="400" loop muted autoPlay>
                       <source src="./images/logo2.mp4"  type="video/mp4"/>
                   </video> */}
-                </div>
+                {/* </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       {/* <!--================= Newsletter Section End Here =================--> */}
       {/*  */}
 
@@ -677,11 +683,13 @@ export default function Home() {
                   style={{ position: "relative" }}
                 >
                   <span class="pretitle">FAQS</span>
-                  <h1 class="section-title">GENERAL FAQS</h1>
-                  <p>
-                    Frequently Asked Questions: Everything You Need to Know
-                    About NFA
-                  </p>
+                  <h1 className="section-title" style={{ color: 'white' }}>GENERAL FAQS</h1>
+
+
+                    <p style={{ color: 'white' }}>
+                      Frequently Asked Questions: Everything You Need to Know About NFA
+                    </p>
+
                 </div>
                 <div class="faq-que-list faq-que2 mb-30">
                   <div class="accordion" id="accordionExample">
