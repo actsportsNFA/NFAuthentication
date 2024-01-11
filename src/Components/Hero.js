@@ -11,14 +11,18 @@ export default function Hero() {
           <div class="swiper bannerSlide">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="banner-single banner-single-1 banner-bg">
+                <div class="banner-single banner-single-1 banner1-bg">
                   <div class="container">
                     <div class="banner-content">
                       <span class="pretitle">WELCOME TO NFA</span>
                       <h1 class="banner-heading">
-                        The Celebrities <br />
+                        Next-Gen Fan <br />
                         Authentication
                       </h1>
+                    <div class="sub-heding">
+                    <p>Your access to the stars</p>
+                    <p class="second-para">Unlock exclusive content and more through celebrities' autographs</p>
+                    </div>
                       <div class="banner-btn-area">
                         <a href="#cards" class="nxt-match-btn banner-btn">
                           EXPLORE MORE{" "}
@@ -29,7 +33,7 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              {/* <div class="swiper-slide">
                 <div class="banner-single banner-single-1_2 banner-bg">
                   <div class="container">
                     <div class="banner-content">
@@ -47,8 +51,8 @@ export default function Hero() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
+              </div> */}
+              {/* <div class="swiper-slide">
                 <div class="banner-single banner-single-3 banner-bg">
                   <div class="container">
                     <div class="banner-content">
@@ -66,7 +70,7 @@ export default function Hero() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* <!-- <div class="slider-pagination-area">
                     <div class="swiper-pagination">

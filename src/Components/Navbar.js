@@ -107,7 +107,7 @@ export default function Navbar() {
         
             /> */}
             <video  width="700" height="700" loop muted autoPlay>
-                      <source src="./images/logo3.mp4"  type="video/mp4"/>
+                      <source src="./images/New-logo-nfa.png"  type="video/mp4"/>
                   </video>
          
           </div>
@@ -126,7 +126,7 @@ export default function Navbar() {
                 <Link to="/" class="logo">
                   <img
                     class="main_logo"
-                    src="./images/Updated-Logo-beta.png"
+                    src="./images/New-logo-nfa.png"
                     alt="sportius-logo"
                   />
                 </Link>
@@ -144,9 +144,9 @@ export default function Navbar() {
                         {/* <Link class="menu-item" to="/#home">
                           Home
                         </Link> */}
-                        <CustomLink class="menu-item" to="/" id="home">
+                        {/* <CustomLink class="menu-item" to="/" id="home">
                           Home
-                        </CustomLink>
+                        </CustomLink> */}
                         {/* <!-- <ul class="dropdown-ul">
                                             <li class=""><a class="dropdown-link active" href="index-2.html">Homepage
                                                     1</a>
@@ -159,14 +159,14 @@ export default function Navbar() {
                                         </ul> --> */}
                       </li>
                       <li>
-                        <CustomLink class="menu-item" to="/" id="cards">
+                        {/* <CustomLink class="menu-item" to="/" id="cards">
                           BENEFITS
-                        </CustomLink>
+                        </CustomLink> */}
                       </li>
                       <li class="has-dropdown">
-                        <CustomLink class="menu-item" to="/" id="about">
+                        {/* <CustomLink class="menu-item" to="/" id="about">
                           ABOUT
-                        </CustomLink>
+                        </CustomLink> */}
                         {/* <!-- <ul class="dropdown-ul mega-dropdown">
                                             <li class="mega-dropdown-li">
                                                 <ul class="mega-dropdown-ul">
@@ -221,9 +221,9 @@ export default function Navbar() {
                       </li>
 
                       <li class="has-dropdown">
-                        <CustomLink class="menu-item" to="/" id="process">
+                        {/* <CustomLink class="menu-item" to="/" id="process">
                           Process
-                        </CustomLink>
+                        </CustomLink> */}
                         {/* <!-- <ul class="dropdown-ul">
                                             <li class="dropdown-li"><a class="dropdown-link" href="blog.html">News</a>
                                             </li>
@@ -233,9 +233,9 @@ export default function Navbar() {
                                         </ul> --> */}
                       </li>
                       <li class="has-dropdown">
-                        <CustomLink class="menu-item" to="/" id="#sponsor">
+                        {/* <CustomLink class="menu-item" to="/" id="#sponsor">
                           Brands
-                        </CustomLink>
+                        </CustomLink> */}
                         {/* <!-- <ul class="dropdown-ul">
                                             <li class="dropdown-li"><a class="dropdown-link" href="shop.html">Shop</a>
                                             </li>
@@ -252,13 +252,44 @@ export default function Navbar() {
                                         </ul> --> */}
                       </li>
                       <li>
-                        <CustomLink class="menu-item" to="/" id="#contact">
+                        {/* <CustomLink class="menu-item" to="/" id="#contact">
                           Contact
-                        </CustomLink>
+                        </CustomLink> */}
                       </li>
                     </ul>
                   </nav>
+                  <div class="header-social-links">
+                    <a
+                      href="https://www.instagram.com/nfauthentication/"
+                      target="_blank"
+                      class="platform"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/nfacollection?s=20" target="_blank" className="platform" style={{ marginTop: '-8px', color: '#fff' }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 512 512">
+                      <path opacity="1" fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                    </svg>
+                    </a>
+
+
+                    <a
+                      href="https://www.linkedin.com/company/nextgenfanauthentication/"
+                      target="_blank"
+                      class="platform"
+                    >
+                       <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://youtube.com/@nfauthentication?feature=shared"
+                      target="_blank"
+                      class="platform"
+                    >
+                       <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
                 </div>
+                
                 <div class="header-action-items header-action-items1">
                   {/* <!-- <div class="search-part">
                                 <div class="search-icon action-item icon"><i class="rt-search"></i></div>

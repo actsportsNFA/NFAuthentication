@@ -12,7 +12,7 @@ export default function Footer() {
               <div class="col-xl-4 col-md-6">
                 <div class="footer-widget">
                   <div class="footer-logo">
-                    <img src="./images/Updated-Logo-beta.png" alt="footer-logo" />
+                    <img src="./images/New-logo-nfa.png" alt="footer-logo" />
                   </div>
                   <p class="footer-text">
                     NFA is a powerful tool that allows celebrities to
