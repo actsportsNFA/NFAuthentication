@@ -49,7 +49,7 @@ export default function Footer() {
                         Home
                       </CustomLink>
                     </li>
-                    <li class="widget-list-item">
+                    {/* <li class="widget-list-item">
                       <CustomLink to="/" id="#cards">
                         Benefits
                       </CustomLink>
@@ -68,7 +68,7 @@ export default function Footer() {
                       <CustomLink to="/" id="#sponsor">
                         Sponsors
                       </CustomLink>
-                    </li>
+                    </li> */}
                     <li class="widget-list-item">
                       <CustomLink to="/" id="#contact">
                         Contact

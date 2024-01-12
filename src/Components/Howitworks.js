@@ -2,11 +2,11 @@ import React from 'react'
 export default function Howitworks(){
     return(
         <>
-                <div class="banner banner1" id="home">
+                <div class="hitw-1 banner banner1" id="home">
           <div class="swiper bannerSlide">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="banner-single banner-single-1_2 banner-bg">
+                <div class="hitw-1-s banner-single banner-single-1_2 banner-bg">
                   <div class="container">
                     <div class="banner-content">
                       {/* <span class="pretitle">WELCOME TO NFA</span> */}
