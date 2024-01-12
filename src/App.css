@@ -8307,20 +8307,6 @@ tr:first-child {
     bottom: 60px;
   }
 }
-@media (max-width: 900px) {
-  .banner2 .banner-single2 {
-    height: 190px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-@media (max-width: 900px) {
-  .bannerx .banner-single3 {
-    height: 190px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
 
 .banner2 {
   position: relative;
@@ -9122,30 +9108,9 @@ tr:first-child {
 .banner-single-1_2 {
   background-image: url("../public/images/image2.png");
 }
-@media (max-width: 900px) {
-  .banner-single-1_2 {
-    background-size: contain; /* or contain, depending on your preference */
-    background-position: center; /* adjust the position as needed */
-    height: auto; /* Let the height adjust based on the content */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    overflow: hidden; /* Hide overflowing content */
-    background-repeat: no-repeat;
-  }
-}
-
 
 .banner-single-3 {
   background-image: url("../public/images/image3-edited.png");
-}
-@media (max-width: 900px) {
-  .banner-single-3 {
-    background-size: contain; /* or contain, depending on your preference */
-    background-position: center; /* adjust the position as needed */
-    height: auto; /* Let the height adjust based on the content */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    overflow: hidden; /* Hide overflowing content */
-    background-repeat: no-repeat;
-  }
 }
 
 .banner-single-2 {
@@ -16951,7 +16916,7 @@ tr:first-child {
 
 .footer .footer-bottom-area {
   padding: 25px 0;
-  background: black;
+  background: #030e15;
 }
 
 .footer .footer-bottom-area .bottom-area-inner {
