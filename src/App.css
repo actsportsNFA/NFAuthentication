@@ -8307,14 +8307,6 @@ tr:first-child {
     bottom: 60px;
   }
 }
-
-@media (max-width: 1024px) {
-  .bannerx .banner-single3 {
-    height: 190px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
 @media (max-width: 932px) {
   .banner1 .banner-single {
     height: 190px;
