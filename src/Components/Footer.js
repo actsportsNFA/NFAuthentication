@@ -49,26 +49,26 @@ export default function Footer() {
                         Home
                       </CustomLink>
                     </li>
-                    <li class="widget-list-item">
+                    {/* <li class="widget-list-item">
                       <CustomLink to="/" id="#cards">
                         Benefits
                       </CustomLink>
-                    </li>
-                    <li class="widget-list-item">
+                    </li> */}
+                    {/* <li class="widget-list-item">
                       <CustomLink to="/" id="#about">
                         About
                       </CustomLink>
-                    </li>
-                    <li class="widget-list-item">
+                    </li> */}
+                    {/* <li class="widget-list-item">
                       <CustomLink to="/" id="#process">
                         Process
                       </CustomLink>
-                    </li>
-                    <li class="widget-list-item">
+                    </li> */}
+                    {/* <li class="widget-list-item">
                       <CustomLink to="/" id="#sponsor">
                         Sponsors
                       </CustomLink>
-                    </li>
+                    </li> */}
                     <li class="widget-list-item">
                       <CustomLink to="/" id="#contact">
                         Contact

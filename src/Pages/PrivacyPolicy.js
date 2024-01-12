@@ -21,13 +21,13 @@ export default function PrivacyPolicy() {
           <div className="row">
             <div className="col-lg-12">
               <h4 style={{ textAlign: "center", margin: "45px" }}>
-                Privacy Policy for  Near-Field Authentication (NFA) Website
+                Privacy Policy for  Next-Gen Fan Authentication
               </h4>
               <h5 style={{ marginBottom: "30px" }}>
                 Effective as of January 1, 2023
               </h5>
               <p className="privacy-para">
-                Welcome to  Near-Field Authentication (NFA) LLC, a Florida
+                Welcome to  Next-Gen Fan Authentication (NFA) LLC, a Florida
                 limited liability company. At NFA, we are committed to
                 protecting your privacy and ensuring the security of your
                 personal information. This Privacy Policy explains how we
@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
                 contact@nfauthentication.io.
                 <br />
                 <br />
-                Thank you for choosing Near-Field Authentication (NFA) . We are
+                Thank you for choosing Next-Gen Fan Authentication (NFA) . We are
                 dedicated to safeguarding your privacy and ensuring a secure
                 online experience
               </p>

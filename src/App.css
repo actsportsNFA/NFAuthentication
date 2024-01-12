@@ -8296,7 +8296,7 @@ tr:first-child {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .banner1 .banner-single {
     height: 190px;
     padding-top: 150px;
@@ -8307,14 +8307,26 @@ tr:first-child {
     bottom: 60px;
   }
 }
-@media (max-width: 900px) {
-  .banner2 .banner-single2 {
+
+@media (max-width: 1024px) {
+  .bannerx .banner-single3 {
     height: 190px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 932px) {
+  .banner1 .banner-single {
+    height: 190px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .banner1 .slider-pagination-area {
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 932px) {
   .bannerx .banner-single3 {
     height: 190px;
     padding-top: 10px;
