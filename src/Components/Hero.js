@@ -14,20 +14,28 @@ export default function Hero() {
                 <div class="banner-single banner-single-1 banner1-bg">
                   <div class="container">
                     <div class="banner-content">
-                      <span class="pretitle">WELCOME TO NFA</span>
-                      <h1 class="banner-heading">
-                        Next-Gen Fan <br />
-                        Authentication
-                      </h1>
-                    <div class="sub-heding">
+                      <span class="pretitle">Got Perks?</span>
+                      <h1 className="banner-heading">
+                      Get <span style={{ color: '#60ae44' }}>Perks</span> From <br />
+                      Autographed Collectibles
+                  </h1>
+                    {/* <div class="sub-heding">
                     <p>Your access to the stars</p>
                     <p class="second-para">Unlock exclusive content and more through celebrities' autographs</p>
-                    </div>
+                    </div> */}
                       <div class="banner-btn-area">
                         <a href="#cards" class="nxt-match-btn banner-btn">
-                          EXPLORE MORE{" "}
+                          EXCLUSIVE CONTENT AND PRODUCTS{" "}
                           <i class="far fa-long-arrow-right ml--5"></i>
                         </a>
+                        <a href="#cards" class="nxt-match-btn bannar-btn">
+                        <i class="far fa-long-arrow-right ml--5"></i>
+                        <img src="/images/app-store-100.png"></img>
+                       </a>
+                       <a href="#cards" class="nxt-match-btn bannar-btn">
+                        <i class="far fa-long-arrow-right ml--5"></i>
+                        <img src="/images/play-store-100.png"></img>
+                       </a>
                       </div>
                     </div>
                   </div>
