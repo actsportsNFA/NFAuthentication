@@ -126,19 +126,25 @@ export default function Navbar() {
                 <Link to="/" class="logo">
                   <img
                     class="main_logo"
-                    src="./images/New-logo-nfa.png"
+                    src="./images/logo-perks1.png"
                     alt="sportius-logo"
                   />
                 </Link>
-                <Link  to="/" class="logo-sticky">
+                {/* <Link  to="/" class="logo-sticky">
                   <img
                     class="main_logo"
-                    src="./images/logo-re.png"
+                    src="./images/logo-perks.png"
                     alt="nfa-logo"
                   />
-                </Link>
+                </Link> */}
+                {/* <div class="header-action-items header-action-items1">
+                  <a href="https://nfauthentication.com/" class="more-btn">
+                    JOIN NOW <i class="fal fa-long-arrow-right"></i>
+                  </a>
+                </div> */}
                 <div class="rts-menu">
                   <nav class="menus menu-toggle">
+                    
                     <ul class="nav__menu">
                       <li class="has-dropdown">
                         {/* <Link class="menu-item" to="/#home">
@@ -259,6 +265,11 @@ export default function Navbar() {
                     </ul>
                   </nav>
                   <div class="header-social-links">
+                  <a href="https://twitter.com/nfacollection?s=20" target="_blank" style={{ paddingTop: '-8px', color: 'green', height: '35px', width: '35px' }}>
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512" fill="green" >
+                      <path opacity="1" fill="green" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                    </svg>
+                  </a>
                     <a
                       href="https://www.instagram.com/nfauthentication/"
                       target="_blank"
@@ -266,12 +277,20 @@ export default function Navbar() {
                     >
                       <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://twitter.com/nfacollection?s=20" target="_blank" className="platform" style={{ marginTop: '-8px', color: '#fff' }}>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 512 512">
-                      <path opacity="1" fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
-                    </svg>
+                    <a
+                      href="https://www.tiktok.com/@gotmyperks?fbclid=IwAR0cneF7AuI_2uNJQ5c554Iq5v7Pa9lOMWbfzqYw9Ckx7wcMykcuaEYp_ec"
+                      target="_blank"
+                      class="platform"
+                    >
+                      <i class="fa-brands fa-tiktok"></i>
                     </a>
-
+                    <a
+                      href="https://www.facebook.com/gotmyperks"
+                      target="_blank"
+                      class="platform"
+                    >
+                      <i class="fa-brands fa-square-facebook"></i>
+                    </a>
 
                     <a
                       href="https://www.linkedin.com/company/nextgenfanauthentication/"
@@ -289,7 +308,7 @@ export default function Navbar() {
                     </a>
                   </div>
                 </div>
-                
+                {/* join now button */}
                 <div class="header-action-items header-action-items1">
                   {/* <!-- <div class="search-part">
                                 <div class="search-icon action-item icon"><i class="rt-search"></i></div>

@@ -5,7 +5,7 @@ import CustomLink from "./CustomLink";
 export default function Footer() {
   return (
     <>
-      <div class="footer footer1">
+      {/* <div class="footer footer1">
         <div class="container">
           <div class="footer-inner">
             <div class="row">
@@ -48,7 +48,7 @@ export default function Footer() {
                       <CustomLink to="/" id="#home">
                         Home
                       </CustomLink>
-                    </li>
+                    </li> */}
                     {/* <li class="widget-list-item">
                       <CustomLink to="/" id="#cards">
                         Benefits
@@ -69,7 +69,7 @@ export default function Footer() {
                         Sponsors
                       </CustomLink>
                     </li> */}
-                    <li class="widget-list-item">
+                    {/* <li class="widget-list-item">
                       <CustomLink to="/" id="#contact">
                         Contact
                       </CustomLink>
@@ -91,8 +91,8 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="col-xl-4 col-md-6">
+              </div> */}
+              {/* <div class="col-xl-4 col-md-6">
                 <div class="footer-widget address-widget">
                   <h3 class="footer-widget-title">
                     <span class="decorator"></span> GET IN TOUCH
@@ -116,8 +116,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
-        <div class="footer-bottom-area">
+        </div> */}
+        {/* <div class="footer-bottom-area">
           <div class="container">
             <div class="bottom-area-inner ">
               <span class="copyright">
@@ -126,7 +126,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

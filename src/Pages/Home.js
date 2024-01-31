@@ -50,8 +50,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Howitworks />
-      <Howitworks2 />
+      {/* <Howitworks />
+      <Howitworks2 /> */}
 
    
 
@@ -673,7 +673,7 @@ export default function Home() {
       </div>
       {/* <!--================= Product-details Section End Here =================--> */}
 
-      <section class="faq-area pt-105 pt-105 pt-md-55 pt-xs-55" id="faq">
+      {/* <section class="faq-area pt-105 pt-105 pt-md-55 pt-xs-55" id="faq">
         <div class="container">
           <div class="row align-items-center pb-90 pb-md-30 pb-xs-30">
             <div class="col-lg-12 col-md-12">
@@ -995,7 +995,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
