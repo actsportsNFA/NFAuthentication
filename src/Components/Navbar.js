@@ -1,5 +1,12 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 import CustomLink from "./CustomLink";
 
@@ -276,28 +283,28 @@ export default function Navbar() {
                       target="_blank"
                       class="platform"
                     >
-                      <i class="fab fa-instagram"></i>
+                      <FaInstagram />
                     </a>
                     <a
                       href="https://x.com/gotmyperks?s=21"
                       target="_blank"
                       class="platform"
                     >
-                      <i class="fa-brands fa-twitter"></i>
+                    <FaXTwitter />
                     </a>
                     <a
                       href="https://www.tiktok.com/@gotmyperks?fbclid=IwAR0cneF7AuI_2uNJQ5c554Iq5v7Pa9lOMWbfzqYw9Ckx7wcMykcuaEYp_ec"
                       target="_blank"
                       class="platform"
                     >
-                      <i class="fa-brands fa-tiktok"></i>
+                    <FaTiktok />
                     </a>
                     <a
                       href="https://www.facebook.com/gotmyperks"
                       target="_blank"
                       class="platform"
                     >
-                      <i class="fa-brands fa-square-facebook"></i>
+                    <FaFacebookF />
                     </a>
 
                     <a
@@ -305,14 +312,14 @@ export default function Navbar() {
                       target="_blank"
                       class="platform"
                     >
-                       <i class="fa-brands fa-linkedin"></i>
+                    <FaLinkedin />
                     </a>
                     <a
                       href="https://youtube.com/@nfauthentication?feature=shared"
                       target="_blank"
                       class="platform"
                     >
-                       <i class="fa-brands fa-youtube"></i>
+                    <FaYoutube />
                     </a>
                   </div>
                 </div>
