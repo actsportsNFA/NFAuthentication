@@ -272,14 +272,14 @@ export default function Navbar() {
                     </svg>
                   </a> */}
                     <a
-                      href="https://www.instagram.com/nfauthentication/"
+                      href="https://www.instagram.com/gotmyperks?igsh=MXB2NmNxMDc3ZmxjdQ=="
                       target="_blank"
                       class="platform"
                     >
                       <i class="fab fa-instagram"></i>
                     </a>
                     <a
-                      href="https://www.instagram.com/nfauthentication/"
+                      href="https://x.com/gotmyperks?s=21"
                       target="_blank"
                       class="platform"
                     >
