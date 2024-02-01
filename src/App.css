@@ -8179,7 +8179,7 @@ tr:first-child {
 @media (max-width: 1324px) {
   .banner .banner-content {
     width: 400px;
-    margin-top: 60vh;
+    margin-top: 30vh;
     margin-left: 0.1vw;
     padding: 0 !important;
   }
@@ -8850,11 +8850,12 @@ tr:first-child {
 }
 
 .banner-content .banner-heading {
+  margin-top: 7vw;
   font-size: 100px;
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
-  /* margin-bottom: 50px; Removed this because this was adding space */
+  /* margin-bottom: 50px; */
   letter-spacing: inherit;
 }
 
@@ -9157,7 +9158,8 @@ tr:first-child {
 } */
 .swiper-slide {
   /* background-image: url("../public/images/image-1.png"); */
-  background-image: url("../public/images/image-1-perks.png");
+  /* background-image: url("../public/images/image-1-perks.png"); */
+  background-image: url("../public/images/perks-banner-image.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -9165,6 +9167,7 @@ tr:first-child {
 }
 
 .banner-single-1 {
+  height:30vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9331,7 +9334,7 @@ tr:first-child {
   z-index: 0;
 }
 
-.banner-single-4::after {
+/* .banner-single-4::after {
   position: absolute;
   content: "EXPLORE";
   right: 35%;
@@ -9364,26 +9367,26 @@ tr:first-child {
   opacity: 1;
   font-family: var(--font-secondary);
   z-index: 0;
-}
+} */
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .banner-single-4::after {
     font-size: 50px;
     bottom: 25%;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .banner-single-4::after {
     font-size: 35px;
   }
-}
+} */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .banner-single-4::after {
     display: none;
   }
-}
+} */
 
 .inner-page-banner {
   /* background-image: url("../public/images/banner/bannerbg-inner.jpg"); */

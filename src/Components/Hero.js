@@ -14,7 +14,7 @@ export default function Hero() {
                 <div class="banner-single banner-single-1 banner1-bg">
                   <div class="container">
                     <div class="banner-content">
-                      <span class="pretitle">Got Perks?</span>
+                      {/* <span class="pretitle">Got Perks?</span> */}
                       <h1 className="banner-heading">
                       Get <span style={{ color: '#60ae44' }}>Perks</span> From <br />
                       Autographed Collectibles
@@ -28,11 +28,11 @@ export default function Hero() {
                           EXCLUSIVE CONTENT AND PRODUCTS{" "}
                           <i class="far fa-long-arrow-right ml--5"></i>
                         </a>
-                        <a href="#cards" class="nxt-match-btn bannar-btn">
+                        <a href="#cards" class="nxt-match-btn banner-btn bannar-btn">
                         <i class="far fa-long-arrow-right ml--5"></i>
                         <img src="/images/app-store-100.png"></img>
                        </a>
-                       <a href="#cards" class="nxt-match-btn bannar-btn">
+                       <a href="#cards" class="nxt-match-btn banner-btn bannar-btn">
                         <i class="far fa-long-arrow-right ml--5"></i>
                         <img src="/images/play-store-100.png"></img>
                        </a>
