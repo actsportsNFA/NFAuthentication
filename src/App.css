@@ -8984,16 +8984,17 @@ tr:first-child {
   transition-duration: 0.4s;
   margin-right: 15px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .banner-content .banner-btn-area .banner-btn.nxt-match-btn  {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    /* margin-left: -5px; */
+    font-size: 17px; 
+    padding: 18px 0px 18px 0px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .banner-content .banner-btn-area .bannar-btn.nxt-match-btn  {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    padding: 0px 50px;
+    font-size: 14px; 
+    padding: 0px 0px 0px 0px;
+    margin: 7px;
   }
 }
 .banner-content .banner-btn-area .bannar-btn.nxt-match-btn {
@@ -9202,10 +9203,10 @@ tr:first-child {
 
   .banner-single-1 {
     margin-top: -1vh;
-    background-image: url("../public/images/coming_soon_animated_text_2.gif");
+    background-image: url("../public/images/PERKS\ \(1\).svg");
   }
-
 }
+
 
 .banner-single-1_2 {
   background-image: url("../public/images/image2.png");
