@@ -15275,7 +15275,8 @@ tr:first-child {
 }
 
 .rts-newsletter-section {
-  background-image: linear-gradient(524deg, #075686, #000), url(../public/images/newsletter-bg.jpg) !important;
+  background: #000 !important;
+
 
   background-position: center;
   background-repeat: no-repeat;
