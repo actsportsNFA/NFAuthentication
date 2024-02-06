@@ -349,7 +349,7 @@ export default function Navbar() {
                                         </div>
                                     </div>
                                 </div> --> */}
-                  <a href="https://nfauthentication.com/" class="more-btn">
+                  <a href="/News-Letter" class="more-btn">
                     JOIN NOW <i class="fal fa-long-arrow-right"></i>
                   </a>
                 </div>

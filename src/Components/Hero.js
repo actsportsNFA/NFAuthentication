@@ -24,15 +24,15 @@ export default function Hero() {
                     <p class="second-para">Unlock exclusive content and more through celebrities' autographs</p>
                     </div> */}
                       <div class="banner-btn-area">
-                        <a href="#cards" class="nxt-match-btn banner-btn">
-                          EXCLUSIVE CONTENT AND PRODUCTS{" "}
+                        <a href="" class="nxt-match-btn banner-btn">
+                          EXCLUSIVE CONTENT AND PRODUCTS
                           <i class="far fa-long-arrow-right ml--5"></i>
                         </a>
-                        <a href="#cards" class="nxt-match-btn banner-btn bannar-btn">
+                        <a href="" class="nxt-match-btn banner-btn bannar-btn">
                         <i class="far fa-long-arrow-right ml--5"></i>
                         <img src="/images/app-store-100.png"></img>
                        </a>
-                       <a href="#cards" class="nxt-match-btn banner-btn bannar-btn">
+                       <a href="" class="nxt-match-btn banner-btn bannar-btn">
                         <i class="far fa-long-arrow-right ml--5"></i>
                         <img src="/images/play-store-100.png"></img>
                        </a>

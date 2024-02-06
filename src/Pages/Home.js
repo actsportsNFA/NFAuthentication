@@ -504,10 +504,10 @@ export default function Home() {
                     style={{ height: "230px", borderRadius: "20px" }}/>
                   {/* <video  width="500" height="400" loop muted autoPlay>
                       <source src="./images/logo2.mp4"  type="video/mp4"/>
-                  </video> */}
-                {/* </div> */}
-              {/* </div> */}
-              {/* <div class="col-lg-3">
+                  </video>
+                </div>
+              </div>
+              <div class="col-lg-3">
                 <div class="hero-image">
                   <img
                     src="./images/newchange1.png"
@@ -527,7 +527,7 @@ export default function Home() {
       {/*  */}
 
       {/* <!--================= Product-details Section Start Here =================--> */}
-      <div class="product-details-popup-wrapper">
+      {/* <div class="product-details-popup-wrapper">
         <div class="rts-product-details-section rts-product-details-section2 product-details-popup-section">
           <div class="product-details-popup">
             <button class="product-details-close-btn">
@@ -670,7 +670,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!--================= Product-details Section End Here =================--> */}
 
       {/* <section class="faq-area pt-105 pt-105 pt-md-55 pt-xs-55" id="faq">

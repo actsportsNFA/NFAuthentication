@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import { useEffect } from 'react';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
 import TermsCondition from './Pages/TermsCondition';
+import NewsLetter from './Pages/NewsLetter'
 // import Test from './Pages/Test';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <Route element={<Home/>} path="/"/>
     <Route element={<PrivacyPolicy/>} path="/privacy-policy"/>
     <Route element={<TermsCondition/>} path="/terms-condition"/>
+    <Route element={<NewsLetter/>} path="/News-Letter"/>
     {/* <Route element={<Test/>} path="/test"/> */}
     {/* <Route element={<Test/>} path="/test"/> */}
     
