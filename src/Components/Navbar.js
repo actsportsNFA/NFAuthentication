@@ -134,7 +134,7 @@ export default function Navbar() {
                 <Link to="/" class="logo">
                   <img
                     class="main_logo"
-                    src="./images/logo-perks1.png"
+                    src="./images/perks-p-new-logo.svg"
                     alt="sportius-logo"
                   />
                 </Link>
