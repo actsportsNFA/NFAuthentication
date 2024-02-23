@@ -6200,7 +6200,7 @@ tr:first-child {
 }
 
 #rtsHeader.rts-header1 .navbar-part {
-  margin-top: -80px;
+  margin-top: -70px;
 }
 
 #rtsHeader.rts-header1 .navbar-part .navbar-inner {
@@ -6221,7 +6221,7 @@ tr:first-child {
 
 @media only screen and (max-width: 600px) {
   #rtsHeader.rts-header1 .navbar-part .navbar-inner {
-    margin-top: 60vh;
+    margin-top: 55vh;
     justify-content: center;
     align-items: center;
   }
@@ -8827,8 +8827,8 @@ tr:first-child {
 .banner-content {
   padding: 0 20px;
   position: relative;
-  margin-top: -20vh;
-  margin-left: -14vh;
+  /* margin-top: -20vh;
+  margin-left: -14vh; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8856,14 +8856,14 @@ tr:first-child {
 }
 
 .banner-content .banner-heading {
-  margin-top: 7vw;
+  /* margin-top: 7vw; */
   font-size: 100px;
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
-  /* margin-bottom: 50px; */
   letter-spacing: inherit;
 }
+  /* margin-bottom: 50px; */
 
 .sub-heding p {
   color: white;
@@ -9176,9 +9176,7 @@ tr:first-child {
   height: 80%;
 } */
 .swiper-slide {
-  /* background-image: url("../public/images/image-1.png"); */
-  /* background-image: url("../public/images/image-1-perks.png"); */
-  background-image: url("../public/images/perks-banner-image.png");
+  background-image: url("../public/images/new-banner-image.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -9214,7 +9212,7 @@ tr:first-child {
 
   .banner-single-1 {
     margin-top: -1vh;
-    background-image: url("../public/images/PERKS\ \(1\).svg");
+    background-image: url("../public/images/perks-p-new-logo.svg");
   }
 }
 
@@ -15276,8 +15274,6 @@ tr:first-child {
 
 .rts-newsletter-section {
   background: #000 !important;
-
-
   background-position: center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
@@ -15291,6 +15287,7 @@ tr:first-child {
 }
 
 .rts-newsletter-section .newsletter-box {
+  margin-top: 100px;
   background: #fff;
   padding: 60px 55px;
   position: relative;

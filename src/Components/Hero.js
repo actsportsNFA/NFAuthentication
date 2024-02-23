@@ -30,11 +30,11 @@ export default function Hero() {
                         </a>
                         <a href="" class="nxt-match-btn banner-btn bannar-btn">
                         <i class="far fa-long-arrow-right ml--5"></i>
-                        <img src="/images/app-store-100.png"></img>
+                        <img src="/images/app-store.svg"></img>
                        </a>
                        <a href="" class="nxt-match-btn banner-btn bannar-btn">
                         <i class="far fa-long-arrow-right ml--5"></i>
-                        <img src="/images/play-store-100.png"></img>
+                        <img src="/images/google-play.svg"></img>
                        </a>
                       </div>
                     </div>
