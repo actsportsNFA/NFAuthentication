@@ -3,12 +3,15 @@ import axios from 'axios';
 
 const NewsLetter = () => {
   const [email, setEmail] = useState('');
+  const [firstName, setFirstName] = useState('');
+  const [city, setCity] = useState('');
+  const [country, setCountry] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const serviceId = 'service_87b1dy7';
+    const serviceId = 'service_rnojbhd';
     const templateId = 'template_mzv3crr';
     const publicKey = 'ybffibgzDjnGVHGSa';
 
@@ -17,8 +20,10 @@ const NewsLetter = () => {
       template_id: templateId,
       user_id: publicKey,
       template_params: {
-        from_name: 'User', // Consider changing this based on your requirements
+        from_name: firstName, // Updated to use the firstName state
         from_email: email,
+        city: city, // Added city
+        country: country, // Added country
         to_name: 'PERKS',
         message: 'Subscribe me to the newsletter',
       },
@@ -26,14 +31,18 @@ const NewsLetter = () => {
 
     try {
       await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
-      setEmail(''); // Reset the email state to clear the form
+      // Reset the states to clear the form
+      setEmail('');
+      setFirstName('');
+      setCity('');
+      setCountry('');
       setSuccessMessage('Your email has been sent successfully!'); // Display success message
-      setErrorMessage(''); // Ensure error message is cleared on success
+      setErrorMessage(''); // Clear error message on success
       setTimeout(() => setSuccessMessage(''), 5000); // Optional: Clear success message after 5 seconds
     } catch (error) {
       console.error(error);
       setErrorMessage('Failed to send the email. Please try again.'); // Display error message
-      setSuccessMessage(''); // Ensure success message is cleared on error
+      setSuccessMessage(''); // Clear success message on error
     }
   };
 
@@ -42,25 +51,57 @@ const NewsLetter = () => {
       <div className="container">
         <div className="newsletter-inner">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="newsletter-box">
                 <div className="section-title-area section-title-area1 text-start mb--50">
-                  <h1 className="section-title">SUBSCRIBE NEWSLETTER</h1>
-                  <p>
-                    Game Changer: Stay ahead of the game with our NFA
-                    Newsletter
-                  </p>
+                  <img class="news-letter-logo" src="./images/perks-p-new-logo.svg"></img>
+                  <h1 className="newsletter-section-title">By signing up for the PERKS whitelist, we’ll update you on upcoming drops from your
+                                                          favorite celebs and how you can receive PERKS.</h1>
+                      <h2 className="newsletter-section-subHeading">
+                      Please fill in the form carefully and only sign up once. We plan to use a verification
+                      system to ensure each person has only a single whitelist sign-up. We reserve the right to
+                      remove whitelist members who we believe have created multiple accounts, provided
+                      false information, or completed the form incorrectly.
+                      </h2>
+                  {/* <p>Game Changer: Stay ahead of the game with our NFA Newsletter</p> */}
                 </div>
                 {successMessage && <div className="alert alert-success">{successMessage}</div>}
                 {errorMessage && <div className="alert alert-danger">{errorMessage}</div>}
                 <form onSubmit={handleSubmit} className='emailForm'>
                   <div className="form">
                     <input
+                      type="text"
+                      style={{ margin: '10px 0', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}
+                      className="form-control"
+                      placeholder="Enter Your First Name"
+                      value={firstName}
+                      onChange={(e) => setFirstName(e.target.value)}
+                      required
+                    />
+                    <input
                       type="email"
+                      style={{ margin: '10px 0', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}
                       className="form-control"
                       placeholder="Enter Your Email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                    <input
+                      type="text"
+                      style={{ margin: '10px 0', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}
+                      className="form-control"
+                      placeholder="Enter Your City"
+                      value={city}
+                      onChange={(e) => setCity(e.target.value)}
+                    />
+                    <input
+                      type="text"
+                      style={{ margin: '10px 0', padding: '10px', borderRadius: '5px', border: '1px solid #ccc' }}
+                      className="form-control"
+                      placeholder="Enter Your Country"
+                      value={country}
+                      onChange={(e) => setCountry(e.target.value)}
                       required
                     />
                   </div>
