@@ -24,6 +24,7 @@ html {
 body {
   font-family: oswald;
   position: relative;
+  background-color: black;
 }
 
 *,
@@ -1493,6 +1494,17 @@ i {
   width: 300px;
   height: 300px;
   margin: 10px 0;
+}
+.news-letter-logo{
+  width: 300px;
+  margin-left: 25vw;
+}
+@media (max-width: 520px) {
+  .news-letter-logo{
+    height: 10vh;
+    margin: 0px 0;
+  }
+
 }
 
 @media (max-width: 520px) {
@@ -6219,9 +6231,9 @@ tr:first-child {
   object-fit: cover; /* Yeh property image ko scale karegi, lekin aspect ratio maintain karegi */
 }
 
-@media only screen and (max-width: 600px) {
+@media  (max-width: 1200px) {
   #rtsHeader.rts-header1 .navbar-part .navbar-inner {
-    margin-top: 55vh;
+    margin-top: 9svh;
     justify-content: center;
     align-items: center;
   }
@@ -8186,7 +8198,7 @@ tr:first-child {
 @media (max-width: 900px) {
   .banner .banner-content {
     width: 400px;
-    margin-top: 40vh;
+    margin-top: 30vh;
     margin-left: 0.1vw;
     padding: 0 !important;
   }
@@ -8237,6 +8249,7 @@ tr:first-child {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 1;
+  
 }
 
 @media (max-width: 1400px) {
@@ -8343,7 +8356,7 @@ tr:first-child {
   .banner1 .banner-single {
     height: auto; /* Set height to auto to allow content to determine height */
     width: auto;
-    padding-top: 50px; /* Adjust top padding for better spacing */
+    padding-top: 30px; /* Adjust top padding for better spacing */
     padding-bottom: 50px; /* Adjust bottom padding for better spacing */
 
   }
@@ -9136,12 +9149,13 @@ tr:first-child {
   /* Set the color of the icons to white */
 }
 
-.banner-bg {
+/* .banner-bg {
+
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
-}
+} */
 
 /* this css is for banner 1  */
 .banner1-bg {
@@ -9176,12 +9190,24 @@ tr:first-child {
   height: 80%;
 } */
 .swiper-slide {
-  background-image: url("../public/images/new-banner-image.jpg");
+  background-image: url("../public/images/banner-image-new2.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
 }
+@media (max-width: 1024px) {
+  .swiper-slide {
+    background-image: url("../public/images/mobile-banner.png");
+  }
+}
+
+/* Adjust height for tablets */
+/* @media (max-width: 1024px) {
+  .swiper-slide {
+    background-image: url("../public/images/Mobile-banner-image.jpg");
+  }
+} */
 
 .banner-single-1 {
   height:30vh;
@@ -9191,6 +9217,7 @@ tr:first-child {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 
 
 /* .banner-single-1::after {
@@ -9211,7 +9238,7 @@ tr:first-child {
   }
 
   .banner-single-1 {
-    margin-top: -1vh;
+    margin-top: 1vh;
     background-image: url("../public/images/perks-p-new-logo.svg");
   }
 }

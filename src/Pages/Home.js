@@ -1,9 +1,5 @@
 import React, { useEffect } from "react";
 import Hero from "../Components/Hero";
-import Howitworks from "../Components/Howitworks";
-import Howitworks2 from "../Components/Howitworks2";
-
-
 export default function Home() {
   const Swiper = window.Swiper;
   useEffect(() => {
