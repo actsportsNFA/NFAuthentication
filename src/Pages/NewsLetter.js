@@ -55,13 +55,14 @@ const NewsLetter = () => {
               <div className="newsletter-box">
                 <div className="section-title-area section-title-area1 text-start mb--50">
                   <img class="news-letter-logo" src="./images/perks-p-new-logo.svg"></img>
-                  <h1 className="newsletter-section-title">By signing up for the PERKS whitelist, we’ll update you on upcoming drops from your
-                                                          favorite celebs and how you can receive PERKS.</h1>
+                  <h1 className="newsletter-section-title">By signing up for the PERKS whitelist, 
+                  we’ll update you on upcoming drops from your favorite celebs and how you can receive perks from owning 
+                  their autographs.</h1>
                       <h2 className="newsletter-section-subHeading">
-                      Please fill in the form carefully and only sign up once. We plan to use a verification
-                      system to ensure each person has only a single whitelist sign-up. We reserve the right to
-                      remove whitelist members who we believe have created multiple accounts, provided
-                      false information, or completed the form incorrectly.
+                      Please fill in the form carefully and only sign up once. 
+                      We will use a verification system to ensure each person has only one sign-up. 
+                      We reserve the right to remove members who we believe have created multiple accounts,
+                       provided false information, or completed the form incorrectly.
                       </h2>
                   {/* <p>Game Changer: Stay ahead of the game with our NFA Newsletter</p> */}
                 </div>
