@@ -8982,7 +8982,7 @@ tr:first-child {
   font-size: 20px;
   font-weight: 600;
   color: white;
-  border: 2px solid white;
+  border: 2px solid #01bf61;
   /* background: #111111; */
   display: inline-block;
   text-align: center;
@@ -9064,7 +9064,7 @@ tr:first-child {
   font-size: 20px;
   font-weight: 600;
   color: white;
-  border: 2px solid white;
+  border: 2px solid #01bf61;
   /* background: #111111; */
   display: inline-block;
   text-align: center;
@@ -9106,7 +9106,7 @@ tr:first-child {
 }
 
 .banner-content .banner-btn-area .banner-btn.nxt-match-btn i {
-  color: white;
+  color: #01bf61;
 }
 
 .banner-content .banner-btn-area .banner-btn.nxt-match-btn:hover {
@@ -9145,7 +9145,7 @@ tr:first-child {
   /* Adjust the font size to make the icons bigger */
   margin-right: 10px;
   /* Add some spacing between the icons */
-  color: green;
+  color: #01bf61;
   /* Set the color of the icons to white */
 }
 
@@ -9239,7 +9239,7 @@ tr:first-child {
 
   .banner-single-1 {
     margin-top: 1vh;
-    background-image: url("../public/images/perks-p-new-logo.svg");
+    background-image: url("../public/images/perks-mobile-view.svg");
   }
 }
 
@@ -15314,8 +15314,7 @@ tr:first-child {
 }
 
 .rts-newsletter-section .newsletter-box {
-  margin-top: 100px;
-  background: #fff;
+  background: black;
   padding: 60px 55px;
   position: relative;
   z-index: 1;
@@ -15325,7 +15324,7 @@ tr:first-child {
 @media (max-width: 375px) {
   .rts-newsletter-section .newsletter-box {
     padding: 70px 20px;
-    margin-top: 50svh;
+    /* margin-top: 50svh; */
   }
 }
 
@@ -15481,7 +15480,7 @@ tr:first-child {
 } */
 .newsletter-section-title{
   margin-bottom: 25px;
-  color: #02BF60;
+  color: #fff;
 }
 @media (max-width:1024px) {
   .newsletter-section-title{
@@ -15490,7 +15489,7 @@ tr:first-child {
 }
 .newsletter-section-subHeading{
   font-size: 25px;
-  color:#02BF60;
+  color:#fff;
 }
 @media (max-width:1024px) {
   .newsletter-section-subHeading{
@@ -27225,7 +27224,7 @@ button,
   border-radius: 6px;
   font-size: 26px;
   font-weight: 600;
-  color: #02B140;
+  color: #01bf61;
   border: 1px solid #efefef;
   -webkit-transition: all 400ms;
   transition: all 400ms;

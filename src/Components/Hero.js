@@ -16,7 +16,7 @@ export default function Hero() {
                     <div class="banner-content">
                       {/* <span class="pretitle">Got Perks?</span> */}
                       <h1 className="banner-heading">
-                      Get <span style={{ color: '#60ae44' }}>Perks</span> From <br />
+                      Get Perks From <br />
                       Autographed Collectibles
                   </h1>
                     {/* <div class="sub-heding">
